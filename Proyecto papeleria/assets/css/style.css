@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.corrector{
+    display: flex;
+}
+
+.imagen{
+    position: block;
+    width: 820px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+}
+
+.formulario{
+    
+    position: block;
+    width: 620px;
+    height: 1024px;
+    left: 820px;
+    top: 0px;
+    border-color: #FFFDF7;
+}
+
+.imglogo{
+    position: relative;
+width: 203px;
+height: 155px;
+left: 206px;
+top: 49px;
+
+}
+
+.titulo{
+    text-align: center;
+    position: relative;
+    width: 298px;
+    height: 40px;
+    left: 215px;
+    top: 200px;
+
+font-family: 'Spartan';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+
+color: #6798C0;
+}
+
+.pmail{
+    
+        position: relative;
+        width: 500px;
+        height: 60px;
+        left: 60px;
+        top: 306px;
+        background: #FFFFFF;
+        /* shadow sm */
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 6px;
+        border-color: transparent;
+        }
+        
+     
+
+.pcontra{
+        position: relative;
+        width: 500px;
+        height: 60px;
+        left: 60px;
+        top: 363px;
+        background: #FFFFFF;
+        /* shadow sm */
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 6px;
+        border-color: transparent;
+        }
+
+        ::placeholder{
+        
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 20px;
+    }
+
+.indicador{
+        position: relative;
+        padding: 0px;
+        margin: 0px;
+        width: 58px;
+        height: 22px;
+        left: -170px;
+        top: 306px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #6798C0;
+    
+    }
+
+.indicadora{
+        position: relative;
+        padding: 0px;
+        margin: 0px;
+        width: 58px;
+        height: 22px;
+        left: -435px;
+        top: 400px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #6798C0;
+    
+}
+
+.botonInicio{
+    position: relative;
+width: 500px;
+height: 60px;
+left: 58px;
+top: 450px;
+
+background: #6798C0;
+/* shadow sm */
+
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+border-radius: 6px;
+}
+
+.opcion{
+    position: relative;
+width: 145px;
+height: 20px;
+left: -244px;
+top: 520px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+text-align: center;
+
+color: #6798C0;
+
+}
+
+.botonRedes{
+    box-sizing: border-box;
+
+position: absolute;
+width: 240px;
+height: 60px;
+left: -150px;
+top: 600px;
+
+background: #FFFDF7;
+border: 1px solid #6798C0;
+/* shadow sm */
+
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+border-radius: 6px;
+}
+
+
+
+
+#logo{
+    height: 3rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+.BGC{
+    background-color: #FFFDF7;
+}
+
+#logo{
+    height: 3rem;
+}
+.btn-outline-lightt{
+    background-color: #FFFDF7;
+}
+.fuente{ 
+
+    color: #6798C0;
+    font-size: 20px;
+    font-family: 'League Spartan', sans-serif;
+}
