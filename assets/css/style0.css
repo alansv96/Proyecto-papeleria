@@ -4,6 +4,8 @@
 }
 
 
+
+/* NAVBAR */
 #logo{
     height: 3rem;
 }
@@ -19,39 +21,42 @@
 
 
 
+/* BODY */
 
 #imgBody{
-  height: calc(100vh - 56px);
-  width: calc(100vh - 56px);
-}
-
-
-
-
-
-#logosPagos{
-  width: 12rem;
-  height: 7rem;
-  margin-left: 2rem;
-
-}
-
-#fondoLogo{
-  background-color: azure;
-  background-color: blueviolet;
+  height: 600px;
+  width: 600px;
 }
 
 .redes{
   background-color: rgb(148, 211, 248);
   color: white;
-  padding: 20px;
-  font-size: 30px;
+  padding: 10px;
+  font-size: 25px;
+  margin-right: -20px;
 }
 
+.redSocial{
+  height: 20px;
+  width: 20px;
+}
 
-
+/* FOOTER */
 
 #footer{
   background-color: #090F46;
   color: white;
+}
+
+#fondoLogo{
+  background-color: azure;  
+}
+
+#logosPagos{
+  width: 100px;
+  height: 50px;
+}
+
+.none{
+  text-decoration: none
 }
