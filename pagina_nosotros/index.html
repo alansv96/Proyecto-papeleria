@@ -10,6 +10,7 @@
     <title>Nosotros</title>
 </head>
 <body>
+  <!-- Inicio barra de navegacion -->
     <nav class="navbar navbar-expand-lg BGC">
         <div class="container-fluid">
           <img class="navbar-toggler"id="logo" src="/assets/img/logo.png" alt="logo" >
@@ -47,17 +48,26 @@
 
         </div>
       </nav>
-      <div class="fondo">
-        <div class="nosotrosPadding">
-          <h1 align="center" >Sobre nosotros</h1>
-          <p align="center" class="p1 ">Somos una empresa Mexicana dedicada a la <br> distribucion de productos escolares y de <br> oficina</p>
+      <!-- fin barra de navegacion -->
+
+      
+      <div class="fondo row">
+        <div class="row flex-column-reverse flex-sm-row">
+          <div class="col  d-flex justify-content-center justify-content-sm-around my-5">
+            <img src="/assets/img/logo.png" alt="">
+          </div>
+          <div class="col">
+            <h1 align="center" >Sobre nosotros</h1>
+            <p align="center" class="p1 ">Somos una empresa Mexicana dedicada a la <br> distribucion de productos escolares y de <br> oficina</p>
+          </div>
         </div>
+        
       </div>
-      <div class="container-md my-5">
+      <div class="container-sm my-5">
         <div class="row row-cols-1 row-cols-md-3 g-4 my-5 ">
           <div class="col">
-            <div class="card border-light h-100">
-              <img src="/assets/img/diamond.png" class="card-img-top imagen my-5 mx-5" alt="diamond">
+            <div class="card border-light ">
+              <img src="/assets/img/diamond.png" class="card-img-top  imagen my-5 mx-5" alt="diamond">
               <div class="card-body">
                 <h5 align="center" class="card-title titleCardBlue">Misión</h5>
                 <p align="center" class="card-text textCardBlue">Proveer articulos de papelería al mejor precio y calidad </p>
@@ -65,7 +75,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card border-light h-100">
+            <div class="card border-light ">
               <img src="/assets/img/ojo.png" class="card-img-top imagen my-5 mx-5" alt="pastel">
               <div class="card-body">
                 <h5 align="center" class="card-title titleCardBlue">Visión</h5>
@@ -74,7 +84,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card border-light h-100">
+            <div class="card border-light ">
               <img src="/assets/img/chain.png" class="card-img-top imagen my-5 mx-5" alt="comida">
               <div class="card-body">
                 <h5 align="center" class="card-title titleCardBlue">Valores</h5>
@@ -98,45 +108,46 @@
          
         </div>
       </div>
-
+      <!-- Empieza footer -->
       <footer id="footer">
     
         <div id="fondoLogo" class="row">
-          <div class="col"> <img id="logosPagos" src="./assets/img/logos/logoPayPal.png" alt="logoPayPal"> </div>
-          <div class="col"> <img id="logosPagos" src="./assets/img/logos/logoVisa.png" alt="logoVisa"> </div>
-          <div class="col"> <img id="logosPagos" src="./assets/img/logos/logoMasterCard.png" alt="logoMasterCar"> </div>
-          <div class="col"> <img id="logosPagos" src="./assets/img/logos/logoAmex.png" alt="logoAmex"> </div>
+          <div class="col d-flex justify-content-center"> <img id="logosPagos" src="./assets/img/logos/logoPayPal.png" alt="logoPayPal"> </div>
+          <div class="col d-flex justify-content-center"> <img id="logosPagos" src="./assets/img/logos/logoVisa.png" alt="logoVisa"> </div>
+          <div class="col d-flex justify-content-center"> <img id="logosPagos" src="./assets/img/logos/logoMasterCard.png" alt="logoMasterCar"> </div>
+          <div class="col d-flex justify-content-center"> <img id="logosPagos" src="./assets/img/logos/logoAmex.png" alt="logoAmex"> </div>
         </div>
   
         
           <div class="row text-center">
-            <div class="col">
-              <p>Información</p>
+            <div class="col-6 col-sm-3" >
+              <p class="text-center my-2">Información</p>
               <p class="text-center">
                 <a href="#"> Nosotros </a> <br>
                 <a href="#"> Información de entrega </a> <br>
                 <a href="#"> Politica y privacidad </a> <br>
                 <a href="#"> Terminos y condiciones </a> <br>
-                <a href="#"> Avisos de privacidad </a> </p>
+                <a href="#"> Avisos de privacidad </a> 
+              </p>
             </div>
-            <div class="col">
-              <p>Servicio al cliente</p>
+            <div class="col-6 col-sm-3" >
+              <p class="text-center my-2">Servicio al cliente</p>
             <p class="text-center">
               <a href="#">Contáctanos</a> <br> 
               <a href="#">Devoluciones</a> <br>
               <a href="#">Mapa de sitio</a>
             </p>
             </div>
-            <div class="col">
-              <p>Mi cuenta</p>
+            <div class="col-6 col-sm-3 ">
+              <p class="text-center my-2">Mi cuenta</p>
               <p class="text-center">
                 <a href="#">Sesión</a> <br>
                 <a href="#">Historial de pedidos</a> <br>
                 <a href="#">Listas de deseos</a>
               </p>
             </div>
-            <div class="col">
-              <p>Extras</p>
+            <div class="col-6 col-sm-3 ">
+              <p class="text-center my-2">Extras</p>
               <p class="text-center">
                 <a href="#">Nuestras aportaciones</a> <br>
                 <a href="#">Bolsa de Trabajo</a> <br>
@@ -145,7 +156,7 @@
               </p>
             </div>
   
-          <span class="logoRedes d-flex justify-content-end">
+          <span class="logoRedes d-flex justify-content-center justify-content-sm-end ">
             <a href="#"> <img class="mx-4" src="./assets/img/redesSociales/gmail.png" alt="Gmail"></a>
             <a href="#"> <img class="mx-4" src="./assets/img/redesSociales/whatssap.png" alt="whatssap"></a> 
             <a href="#"> <img class="mx-4" src="./assets/img/redesSociales/twitter.png" alt="Twitter"></a>
@@ -153,7 +164,7 @@
             <a href="#"><img class="mx-4" src="./assets/img/redesSociales/instagram.png" alt="Instagram"></a>
             </span>
   
-            <span class="d-flex justify-content-start"> 
+            <span class="d-flex justify-content-center justify-content-sm-start my-1"> 
               &copy;Derechos reservados 2022 
             </span>
             
@@ -161,6 +172,8 @@
          
           
     </footer>
+<!-- Termina footer -->
+    
       
 
 

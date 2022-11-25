@@ -25,20 +25,9 @@
   width: calc(100vh - 56px);
 }
 
-
-
-
-
-#logosPagos{
-  width: 12rem;
-  height: 7rem;
-  margin-left: 2rem;
-
-}
-
 #fondoLogo{
-  background-color: azure;
-  background-color: blueviolet;
+  
+  background-color: #FFFDF7;
 }
 
 .redes{

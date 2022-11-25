@@ -46,7 +46,7 @@ h1{
     
 }
 .imagen{
-    max-height: 10rem;
+    max-height: 6rem;
     width: auto;
     
    
@@ -63,5 +63,84 @@ h1{
     color: #6798C0;
 
 }
+a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFDF7;
+    font-size: .8rem;
 
 
+}
+a:hover {
+    font-size: 1rem;
+    color:#FFFDF7;
+  }
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFDF7;
+    font-size: 1.2rem;
+
+}
+#fondoLogo{
+  
+    background-color: #FFFDF7;
+  }
+  
+  .redes{
+    background-color: rgb(148, 211, 248);
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+  }
+  
+  
+  
+  
+  #footer{
+    background-color: #090F46;
+    color: white;
+  }
+ @media (max-width:480px){
+    #logosPagos{
+        width: 4rem;
+        height: 2rem;
+        
+
+
+    }
+    .fondo{
+        display: flex;
+        justify-content:end;
+        align-items: center;
+        height: 1200px;
+        background-image: url(/assets/img/unsplash_Bf_ItbkEBjI.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+
+}
+
+@media (min-width:481px){
+    #logosPagos{
+        width: 6rem;
+        height: 3rem;
+        
+
+
+    }
+
+}
+
+@media (min-width:768px){
+    #logosPagos{
+        width: 10rem;
+        height: 5rem;
+     
+
+    }
+    .textCardBlue{
+        font-size: 1.4rem;
+    }
+}
+ 
