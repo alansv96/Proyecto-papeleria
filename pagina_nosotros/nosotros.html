@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/nosotros.css">
     <title>Nosotros</title>
 </head>
 <body>
@@ -36,13 +36,20 @@
               </li>
             </ul>
             <div class="mb-auto">
-                <button class="btn btn-outline-lightt" type="button"><img src="/assets/img/lupa.png" alt="lupa"></button>
+                <button class="btn btn-outline-lightt dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="/assets/img/lupa.png" alt="lupa">
+                </button>
+                <form class="dropdown-menu p-2 BGC" id="search">
+                  <div class="form-floating mb-3">
+                    <input type="search" class="form-control" id="floatingInput" placeholder="search">
+                    <label for="floatingInput">Ingrese producto</label>
+                  </div>
+                  <button type="submit" class="btn btn-primary BGCBlue">Buscar</button>
+                </form>
                 <button class="btn btn-outline-lightt" type="button"><img src="/assets/img/carrito.png" alt="carrito"></button>
                 <button class="btn btn-outline-lightt" id="mobileIcon" type="button"><img src="/assets/img/cel.png" alt="mobile"></button>
             </div>
-
           </div>
-
         </div>
       </nav>
       <!-- fin barra de navegacion -->
@@ -128,41 +135,29 @@
   
         
           <div class="row text-center">
-            <div class="col-6 col-sm-3" >
+            <div class="col-6 col-sm-4" >
               <p class="text-center my-2">Información</p>
               <p class="text-center">
+                <a href="#">Inicio</a> <br>
                 <a href="#"> Nosotros </a> <br>
-                <a href="#"> Información de entrega </a> <br>
-                <a href="#"> Politica y privacidad </a> <br>
-                <a href="#"> Terminos y condiciones </a> <br>
-                <a href="#"> Avisos de privacidad </a> 
               </p>
             </div>
-            <div class="col-6 col-sm-3" >
+            <div class="col-6 col-sm-4" >
               <p class="text-center my-2">Servicio al cliente</p>
             <p class="text-center">
               <a href="#">Contáctanos</a> <br> 
-              <a href="#">Devoluciones</a> <br>
-              <a href="#">Mapa de sitio</a>
+              <a href="#">Productos</a>
             </p>
             </div>
-            <div class="col-6 col-sm-3 ">
+            <div class="col-6 col-sm-4 ">
               <p class="text-center my-2">Mi cuenta</p>
               <p class="text-center">
                 <a href="#">Sesión</a> <br>
-                <a href="#">Historial de pedidos</a> <br>
-                <a href="#">Listas de deseos</a>
+                <a href="#">Mi carrito</a>
+                
               </p>
             </div>
-            <div class="col-6 col-sm-3 ">
-              <p class="text-center my-2">Extras</p>
-              <p class="text-center">
-                <a href="#">Nuestras aportaciones</a> <br>
-                <a href="#">Bolsa de Trabajo</a> <br>
-                <a href="#">Afiliados</a> <br>
-                <a href="#"Especiales></a> 
-              </p>
-            </div>
+            
   
           <span class="logoRedes d-flex justify-content-center justify-content-sm-end ">
             <a href="#"> <img class="mx-4" src="./assets/img/redesSociales/gmail.png" alt="Gmail"></a>
@@ -185,7 +180,7 @@
     
       
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-
+<script src="/assets/js/nosotros.js"></script>
     
 </body>
 </html>

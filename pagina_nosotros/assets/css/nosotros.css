@@ -9,6 +9,9 @@
     background-attachment: fixed;
     background-size: 100% 100%;
 }
+.BGCBlue{
+    background-color: #6798C0;
+}
 .BGC{
     background-color: #FFFDF7;
 }
@@ -30,6 +33,8 @@
     font-size: 20px;
     font-family: 'League Spartan', sans-serif;
 }
+
+
 h1{
     
     font-size: 4rem;
@@ -71,7 +76,7 @@ a{
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     color: #FFFDF7;
-    font-size: .8rem;
+    font-size: 1rem;
 
 
 }
@@ -82,7 +87,7 @@ a:hover {
 p{
     font-family: 'Montserrat', sans-serif;
     color: #FFFDF7;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 
 }
 #fondoLogo{
@@ -104,6 +109,37 @@ p{
     background-color: #090F46;
     color: white;
   }
+
+  @media (min-width:1199px) {
+    #search{
+        position: absolute;
+        width: 400px;
+      
+        left: 800px;
+        
+      
+    } 
+}
+@media (min-width:1600px) {
+    #search{
+        position: absolute;
+        width: 400px;
+      
+        left: 1450px;
+        
+      
+    } 
+}
+/* @media (min-width:1400px) {
+    #search{
+        position: absolute;
+        width: 400px;
+      
+        left: 1100px;
+        
+      
+    } 
+} */
  @media (max-width:480px){
     #logosPagos{
         width: 4rem;
@@ -123,6 +159,15 @@ p{
         background-attachment: fixed;
         background-size: 100% 100%;
     }
+
+    #search{
+       
+        width: 350px;
+      
+        
+        
+      
+    } 
   
  
 
@@ -152,6 +197,15 @@ p{
     .textCardBlue{
         font-size: 1.4rem;
     }
+
+    #search{
+        position: absolute;
+        width: 400px;
+      
+        
+        
+      
+    } 
    
 }
 
