@@ -155,7 +155,7 @@ p{
    
 }
 
-@media (max-width:769px) {
+@media (max-width:991px) {
     #mobileIcon{
         visibility: hidden;
     }
