@@ -28,15 +28,15 @@
                     
                 </div>
                 <div class="px-lg-5 py-lg-4 p-4 pt-lg-0 w-100">
-                <form>
+                <form id="form">
                     <div class="mb-4 mt-4">
-                      <label for="exampleInputEmail1">E-mail</label>
-                      <input type="email" class="form-control border-0" placeholder="Ingresa tu e-mail" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                      <label for="exampleInputNombre1">Nombre (s)*</label>
+                      <input type="text" class="form-control border-0" placeholder="Ingresa tu(s) nombre(s)" id="exampleInputNombre1" aria-describedby="emailHelp" placeholder="Ingresa tu nombre">
                     </div>
                     
                     <div class="mb-4 mt-4">
-                      <label for="exampleInputEmail1">E-mail</label>
-                      <input type="email" class="form-control border-0" placeholder="Ingresa tu e-mail" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">                      
+                      <label for="exampleInputApellido1">Apellido (s)*</label>
+                      <input type="text" class="form-control border-0" placeholder="Ingresa tu(s) apellido(s)" id="exampleInputApellido1" aria-describedby="emailHelp" placeholder="Ingresa tu apellido">                      
                     </div>
 
                     <div class="mb-4 mt-4">
@@ -51,13 +51,14 @@
                     </div>
                     
                     <div class="mb-4 mt-4">
-                      <label for="exampleInputPassword1">Contraseña</label>
-                      <input type="password" class="form-control border-0 mb-2" placeholder="Ingresa tu contraseña" id="exampleInputPassword1" placeholder="Password">
+                      <label for="exampleInputPassword2">Confirmar Contraseña</label>
+                      <input type="password" class="form-control border-0 mb-2" placeholder="Confirma tu contraseña" id="exampleInputPassword2" placeholder="Password">
                     </div>
                         <div class="checkbox">
                         <input type="checkbox" name="terminos" id="info"> Si hace clic en "Crear cuenta", aceptará nuestros <u>Términos y condiciones.</u>
                         </div>
                     <button type="submit" class="btn botonPrincipal mt-4 font-weight-bold w-100">Crear cuenta</button>
+                    <p class="warnings" id="warnings"></p>
                   </form>
 
                   <p class="opcion font-weight-bold text-center mt-3 text">O crea un cuenta con</p>

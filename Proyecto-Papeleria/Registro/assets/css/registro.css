@@ -59,6 +59,7 @@ label{
     font-weight: bold;
 }
 
+
 .checkbox{
     color: var(--secundario);
     font-family: var(--fuente1);
@@ -70,6 +71,15 @@ label{
     cursor: pointer;
     background-color: var(--secundario2); 
     font-family: var(--fuente1) !important;
+}
+
+.warnings{
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    color: #FDD85D;
+    padding-top: 10px;
+
 }
 
 .opcion{

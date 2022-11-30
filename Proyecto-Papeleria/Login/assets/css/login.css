@@ -66,6 +66,15 @@ label{
     font-family: var(--fuente1) !important;
 }
 
+.warnings{
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    color: #FDD85D;
+    padding-top: 20px;
+
+}
+
 .opcion{
     color: var(--secundario) !important;
     font-size: .9rem !important;
