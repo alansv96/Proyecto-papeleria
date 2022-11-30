@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;700&family=Montserrat:wght@100;300;400;500;700&display=swap"
+        el="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+
+</head>
+
+<body>
+
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg BGC">
+        <div class="container-fluid ">
+            <img class="navbar-brand" id="logo" src="/assets/img/logo.png" alt="logo" style="margin-right: 10rem;">
+            <button class="btn btn-outline-lightt navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <img src="/assets/img/menu_mobile.png" alt="menu-icon">
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarTogglerDemo01">
+
+                <ul class="navbar-nav col-8">
+                    <li class="nav-item col-3">
+                        <a class="nav-link fuenteNav" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item col-3">
+                        <a class="nav-link fuenteNav" aria-current="page" href="#">Nosotros</a>
+                    </li>
+                    <li class="nav-item col-3">
+                        <a class="nav-link fuenteNav" aria-current="page" href="#">Productos</a>
+                    </li>
+                    <li class="nav-item col-3">
+                        <a class="nav-link fuenteNav" aria-current="page" href="#">Contacto</a>
+                    </li>
+                    <li class="nav-item col-3">
+                        <a class="nav-link fuenteNav" aria-current="page" href="#">Cuenta</a>
+                    </li>
+                </ul>
+                <div class="mb-auto">
+                    <button class="btn btn-outline-lightt dropdown-toggle " type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <img src="/assets/img/lupa.png" alt="lupa">
+                    </button>
+                    <form class="dropdown-menu p-2 BGC" id="search">
+                        <div class="form-floating mb-3">
+                            <input type="search" class="form-control" id="floatingInput" placeholder="search">
+                            <label for="floatingInput">Ingrese producto</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary BGCBlue">Buscar</button>
+                    </form>
+                    <button class="btn btn-outline-lightt" type="button"><img src="/assets/img/carrito.png"
+                            alt="carrito"></button>
+                    <button class="btn btn-outline-lightt" id="mobileIcon" type="button"><img src="/assets/img/cel.png"
+                            alt="mobile"></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="hero" class="hero">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item bg bg-1 active">
+                    <div class="content text text-1">
+                        <h2 class="low terc fw-700 text-center px-3">¡<span>bienvenido</span> a <span>los tres
+                                reyes</span>!
+                        </h2>
+                        <a href="nosotros.html" class="low btn btn-primary"><span>conoce</span> más</a>
+                    </div>
+                </div>
+                <div class="carousel-item bg bg-2">
+                    <div class="content text text-2">
+                        <h2 class="low sec1 fw-700 text-center"><span>nuestro</span> catálogo</h2>
+                        <h5 class="low white fw-700 text-center px-3"><span>los</span> mejores productos a los mejores
+                            precios.</h5>
+                        <a href="productos.html" class="low btn btn-primary"><span>ver</span> productos</a>
+                    </div>
+                </div>
+                <div class="carousel-item bg bg-3">
+                    <div class="content text text-3">
+                        <h2 class="pri1 fw-700 text-center">¡únete!</h2>
+                        <h5 class="low white fw-700 text-center px-3"><span>crea</span> tu cuenta y aprovecha los
+                            beneficios.
+                        </h5>
+                        <a href="registro.html" class="btn btn-primary">regístrate</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Novedades -->
+    <section id="novedades" class="novedades py-5 px-2">
+        <div class="text mb-4">
+            <h2 class="pri1 fw-700 text-center">novedades</h2>
+            <h5 class="low sec1 fw-700 text-center"><span>conoce</span> nuestros nuevos productos.</h5>
+        </div>
+        <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
+            <div class="carousel-inner carousel-product-inner">
+                <div class="carousel-item carousel-product-item active">
+                    <div class="card">
+                        <div class="image-wrapper">
+                            <img src="./assets/img/product1.webp" alt="producto">
+                        </div>
+                        <div class="card-body">
+                            <a href="product.html" class="low card-text"><span>pluma bic cristal</span> punto mediano
+                                con 10 piezas</a>
+                            <h5 class="card-title sec1 fw-700 mt-3">$47.00</h5>
+                            <a href="#" class="btn btn-primary">
+                                <h6 class="low"><span>añadir</span> al carrito</h6>
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-product-item">
+                    <div class="card">
+                        <div class="image-wrapper">
+                            <img src="./assets/img/product2.webp" alt="producto">
+                        </div>
+                        <div class="card-body">
+                            <a href="product.html" class="low card-text"><span>corrector bic</span> tipo cinta con una 1
+                                pieza</a>
+                            <h5 class="card-title sec1 fw-700 mt-3">$42.00</h5>
+                            <a href="#" class="btn btn-primary">
+                                <h6 class="low"><span>añadir</span> al carrito</h6>
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-product-item">
+                    <div class="card">
+                        <div class="image-wrapper">
+                            <img src="./assets/img/product3.webp" alt="producto">
+                        </div>
+                        <div class="card-body">
+                            <a href="product.html" class="low card-text"><span>papel scribe tamaño carta</span> con 100 hojas</a>
+                            <h5 class="card-title sec1 fw-700 mt-3">$60.00</h5>
+                            <a href="#" class="btn btn-primary">
+                                <h6 class="low"><span>añadir</span> al carrito</h6>
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-product-item">
+                    <div class="card">
+                        <div class="image-wrapper">
+                            <img src="./assets/img/product4.webp" alt="producto">
+                        </div>
+                        <div class="card-body">
+                            <a href="product.html" class="low card-text"><span>pluma de gel papermate</span> punto mediano con 10 piezas</a>
+                            <h5 class="card-title sec1 fw-700 mt-3">$45.00</h5>
+                            <a href="#" class="btn btn-primary">
+                                <h6 class="low"><span>añadir</span> al carrito</h6>
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-product-item">
+                    <div class="card">
+                        <div class="image-wrapper">
+                            <img src="./assets/img/product5.webp" alt="producto">
+                        </div>
+                        <div class="card-body">
+                            <a href="product.html" class="low card-text"><span>pegamento liquido kola loka</span> tipo brocha con 5g</a>
+                            <h5 class="card-title sec1 fw-700 mt-3">$30.00</h5>
+                            <a href="#" class="btn btn-primary">
+                                <h6 class="low"><span>añadir</span> al carrito</h6>
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Banner -->
+    <section id="banner" class="banner py-4 px-4 my-5">
+        <div class="info">
+            <h4 class="up terc font-2 fw-700">promociones de regreso a clases</h3>
+                <a href="#" class="fw-700 btn btn-primary">descubre más...</a>
+        </div>
+    </section>
+
+    <!-- Más vendidos -->
+    <section id="masvendidos" class="masvendidos py-5 px-2">
+        <div class="text mb-4">
+            <h2 class="sec1 fw-700 text-center">más vendidos</h2>
+            <h5 class="low pri1 fw-700 text-center"><span>los</span> artículos más solicitados por nuestros clientes.
+            </h5>
+        </div>
+        <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
+            <div class="carousel-inner carousel-product-inner">
+                <div class="carousel-item carousel-product-item active">
+                    <div class="card">
+                        <div class="image-wrapper">
+                            <img src="./assets/img/product1.webp" alt="producto">
+                        </div>
+                        <div class="card-body">
+                            <a href="product.html" class="low card-text"><span>pluma bic cristal</span> punto mediano
+                                con 10 piezas</a>
+                            <h5 class="card-title sec1 fw-700 mt-3">$47.00</h5>
+                            <a href="#" class="btn btn-primary">
+                                <h6 class="low"><span>añadir</span> al carrito</h6>
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-product-item">
+                    <div class="card">
+                        <div class="image-wrapper">
+                            <img src="./assets/img/product2.webp" alt="producto">
+                        </div>
+                        <div class="card-body">
+                            <a href="product.html" class="low card-text"><span>corrector bic</span> tipo cinta con una 1
+                                pieza</a>
+                            <h5 class="card-title sec1 fw-700 mt-3">$42.00</h5>
+                            <a href="#" class="btn btn-primary">
+                                <h6 class="low"><span>añadir</span> al carrito</h6>
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-product-item">
+                    <div class="card">
+                        <div class="image-wrapper">
+                            <img src="./assets/img/product3.webp" alt="producto">
+                        </div>
+                        <div class="card-body">
+                            <a href="product.html" class="low card-text"><span>papel scribe tamaño carta</span> con 100 hojas</a>
+                            <h5 class="card-title sec1 fw-700 mt-3">$60.00</h5>
+                            <a href="#" class="btn btn-primary">
+                                <h6 class="low"><span>añadir</span> al carrito</h6>
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-product-item">
+                    <div class="card">
+                        <div class="image-wrapper">
+                            <img src="./assets/img/product4.webp" alt="producto">
+                        </div>
+                        <div class="card-body">
+                            <a href="product.html" class="low card-text"><span>pluma de gel papermate</span> punto mediano con 10 piezas</a>
+                            <h5 class="card-title sec1 fw-700 mt-3">$45.00</h5>
+                            <a href="#" class="btn btn-primary">
+                                <h6 class="low"><span>añadir</span> al carrito</h6>
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-product-item">
+                    <div class="card">
+                        <div class="image-wrapper">
+                            <img src="./assets/img/product5.webp" alt="producto">
+                        </div>
+                        <div class="card-body">
+                            <a href="product.html" class="low card-text"><span>pegamento liquido kola loka</span> tipo brocha con 5g</a>
+                            <h5 class="card-title sec1 fw-700 mt-3">$30.00</h5>
+                            <a href="#" class="btn btn-primary">
+                                <h6 class="low"><span>añadir</span> al carrito</h6>
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Categorias -->
+    <section id="categorias" class="categorias pt-5">
+        <div class="text mb-4">
+            <h2 class="pri1 fw-700 text-center">categorias</h2>
+            <h5 class="low sec1 fw-700 text-center"><span>tenemos</span> lo necesario para cualquier ocasión.</h5>
+        </div>
+        <div class="content">
+            <div class="cat">
+                <img src="./assets/img/c1.webp" alt="categoria" class="cat1">
+                <div class="overlay">
+                    <div class="inner-title">
+                        <a href="#">
+                            <h4 class="terc fw-700">novedades</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="cat">
+                <img src="./assets/img/c2.webp" alt="categoria" class="cat2">
+                <div class="overlay">
+                    <div class="inner-title">
+                        <a href="#">
+                            <h4 class="terc fw-700">temporada</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="cat">
+                <img src="./assets/img/c3.webp" alt="categoria" class="cat3">
+                <div class="overlay">
+                    <div class="inner-title">
+                        <a href="#">
+                            <h4 class="terc fw-700">oficina</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="cat">
+                <img src="./assets/img/c4.webp" alt="categoria" class="cat4">
+                <div class="overlay">
+                    <div class="inner-title">
+                        <a href="#">
+                            <h4 class="terc fw-700">escolar</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="cat">
+                <img src="./assets/img/c5.webp" alt="categoria" class="cat5">
+                <div class="overlay">
+                    <div class="inner-title">
+                        <a href="#">
+                            <h4 class="terc fw-700">didácticos</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="cat">
+                <img src="./assets/img/c6.webp" alt="categoria" class="cat6">
+                <div class="overlay">
+                    <div class="inner-title">
+                        <a href="#">
+                            <h4 class="terc fw-700">otros</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marcas -->
+    <section id="marcas" class="marcas py-5">
+        <div class="text mb-4">
+            <h2 class="sec1 fw-700 text-center">marcas</h2>
+            <h5 class="low pri1 fw-700 text-center"><span>trabajamos</span> con los mejores para ofrecerte lo mejor.
+            </h5>
+        </div>
+        <div class="content">
+            <div class="marca">
+                <img src="./assets/img/marca1.webp" alt="marca" class="cat1">
+            </div>
+            <div class="marca">
+                <img src="./assets/img/marca2.webp" alt="marca" class="cat1">
+            </div>
+            <div class="marca">
+                <img src="./assets/img/marca3.webp" alt="marca" class="cat1">
+            </div>
+            <div class="marca">
+                <img src="./assets/img/marca4.webp" alt="marca" class="cat1">
+            </div>
+            <div class="marca">
+                <img src="./assets/img/marca5.webp" alt="marca" class="cat1">
+            </div>
+            <div class="marca">
+                <img src="./assets/img/marca6.webp" alt="marca" class="cat1">
+            </div>
+            <div class="marca">
+                <img src="./assets/img/marca7.webp" alt="marca" class="cat1">
+            </div>
+            <div class="marca">
+                <img src="./assets/img/marca8.webp" alt="marca" class="cat1">
+            </div>
+        </div>
+    </section>
+
+    <!-- Extra -->
+    <section id="extra" class="extra py-5 px-4">
+        <div class="text mb-4">
+            <h2 class="pri1 fw-700 text-center">todo en uno</h2>
+            <h5 class="low sec1 fw-700 text-center"><span>confianza</span>, comodidad y seguridad en todas
+                tus compras.</h5>
+        </div>
+        <div class="content p-4">
+            <div class="info">
+                <i class="fas fa-credit-card sec1"></i>
+                <h6 class="fw-700 sec1">tú eliges</h6>
+                <p class="low text-center"><span>paga</span> con tarjeta de crédito, débito o efectivo y disfruta de
+                    nuestras promociones
+                    exclusivas.</p>
+            </div>
+            <div class="info">
+                <i class="fas fa-box sec1"></i>
+                <h6 class="fw-700 sec1">envíos gratis</h6>
+                <p class="low text-center"><span>aprovecha</span> tu dinero y tu tiempo. <span>obtén</span> envíos
+                    gratis a toda la
+                    república en montos superiores a $500.00.</p>
+            </div>
+            <div class="info">
+                <i class="fas fa-shield-alt sec1"></i>
+                <h6 class="fw-700 sec1">seguridad total</h6>
+                <p class="low text-center"><span>con</span> nosotros siempre tienes la certeza de que entregamos lo que
+                    ordenaste o te
+                    devolvemos tu dinero.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="container-fluid">
+
+        <div id="fondoLogo" class="row">
+            <div class="col d-flex justify-content-center"> <img id="logosPagos" src="./assets/img/logoPayPal.png"
+                    alt="logoPayPal"> </div>
+            <div class="col d-flex justify-content-center"> <img id="logosPagos" src="./assets/img/logoVisa.png"
+                    alt="logoVisa"> </div>
+            <div class="col d-flex justify-content-center"> <img id="logosPagos" src="./assets/img/logoMasterCard.png"
+                    alt="logoMasterCar"> </div>
+            <div class="col d-flex justify-content-center"> <img id="logosPagos" src="./assets/img/logoAmex.png"
+                    alt="logoAmex"> </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-6 col-sm-4">
+                <p class="text-center my-2">Información</p>
+                <p class="text-center">
+                    <a href="index.html">Inicio</a> <br>
+                    <a href="nosotros.html"> Nosotros </a> <br>
+                </p>
+            </div>
+            <div class="col-6 col-sm-4">
+                <p class="text-center my-2">Servicio al cliente</p>
+                <p class="text-center">
+                    <a href="contacto.htmll">Contáctanos</a> <br>
+                    <a href="productos.html">Productos</a>
+                </p>
+            </div>
+            <div class="col-6 col-sm-4 ">
+                <p class="text-center my-2">Mi cuenta</p>
+                <p class="text-center">
+                    <a href="login.html">Sesión</a> <br>
+                    <a href="cart.html">Mi carrito</a>
+                </p>
+            </div>
+
+            <span class="logoRedes d-flex justify-content-center justify-content-sm-end ">
+                <a href="#"> <img class="mx-4" src="./assets/img/gmail.png" alt="Gmail"></a>
+                <a href="#"> <img class="mx-4" src="./assets/img/whatssap.png" alt="whatssap"></a>
+                <a href="#"> <img class="mx-4" src="./assets/img/twitter.png" alt="Twitter"></a>
+                <a href="#"><img class="mx-4" src="./assets/img/facebook.png" alt="Facebook"></a>
+                <a href="#"><img class="mx-4" src="./assets/img/instagram.png" alt="Instagram"></a>
+            </span>
+
+            <span class="d-flex justify-content-center justify-content-sm-start my-1">
+                &copy;Derechos reservados 2022
+            </span>
+    </footer>
+
+    <!-- Recursos -->
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+    <!-- Carousel -->
+    <script src="./assets/js/carousel.js"></script>
+
+    <script>
+
+        const searchInputDropdown = document.getElementById('search');
+
+        searchInputDropdown.addEventListener("submit", (evento) => {
+
+            evento.preventDefault()
+
+
+            const valor = document.getElementById("floatingInput").value;
+            console.log(valor);
+
+            //console.log(evento.target);
+            searchInputDropdown.reset()
+
+        })
+
+    </script>
+
+</body>
+
+</html>
