@@ -1,0 +1,757 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+    /*font-family: 'Montserrat', sans-serif;*/
+    text-transform: capitalize;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Propiedades */
+.section-padding{
+    padding: 5rem 2rem;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 2.4rem;
+}
+
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+}
+
+h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+}
+
+h6{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+.font-2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pri1{
+    color: #fdc921;
+}
+
+.pri2{
+    color: #FDD85D;
+}
+
+.sec1{
+    color: #6798c0;
+}
+
+.sec2{
+    color: #99d6ea;
+}
+
+.terc{
+    color: #fffdf7;
+}
+
+.white{
+    color: white;
+}
+
+.black{
+    color: black;
+}
+
+.fw-100{
+    font-weight: 100;
+}
+
+.fw-300{
+    font-weight: 200;
+}
+
+.fw-400{
+    font-weight: 300;
+}
+
+.fw-500{
+    font-weight: 500;
+}
+
+.fw-700{
+    font-weight: 700;
+}
+
+.up{
+    text-transform: uppercase;
+}
+
+.low{
+    text-transform: lowercase;
+}
+
+/* Navbar */
+.show{
+    background-color: #00000000;
+}
+
+.show li{
+    font-size: 1.5rem;
+}
+
+.show .show-logo{
+    display: none;
+}
+
+.BGC{
+    background-color: #FFFDF7;
+}
+
+#logo{
+    height: 3rem;
+}
+
+.btn-outline-lightt{
+    background-color: #FFFDF7;
+}
+
+.fuente{ 
+    color: #6798C0;
+    font-size: 20px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+/* Hero */
+.hero .bg{
+    height: 50vh;
+    width: 100vw;
+}
+
+.hero .bg-1{
+    background:linear-gradient(rgba(5, 7, 12, 0.50), rgba(5, 7, 12, .50)), url(../img/supplies.webp) no-repeat 50%/cover;
+}
+
+.hero .bg-2{
+    background:linear-gradient(rgba(5, 7, 12, 0.50), rgba(5, 7, 12, .50)), url(../img/catalog.webp) no-repeat 50%/cover;
+}
+
+.hero .bg-3{
+    background:linear-gradient(rgba(5, 7, 12, 0.50), rgba(5, 7, 12, .50)), url(../img/unit.webp) no-repeat 50%/cover;
+}
+
+.hero .bg-1:hover{
+    background:linear-gradient(rgba(5, 7, 12, 0.40), rgba(5, 7, 12, .40)), url(../img/supplies.webp) no-repeat 50%/cover;
+    transition: all 0.16s ease-in-out;
+}
+
+.hero .bg-2:hover{
+    background:linear-gradient(rgba(5, 7, 12, 0.40), rgba(5, 7, 12, .40)), url(../img/catalog.webp) no-repeat 50%/cover;
+    transition: all 0.16s ease-in-out;
+}
+
+.hero .bg-3:hover{
+    background:linear-gradient(rgba(5, 7, 12, 0.40), rgba(5, 7, 12, .40)), url(../img/unit.webp) no-repeat 50%/cover;
+    transition: all 0.16s ease-in-out;
+}
+
+.hero .content{
+    height: 100%;
+    width: 100%;
+}
+
+.hero .carousel-item .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 2rem;
+    text-align: center;
+    row-gap: .5rem;
+}
+
+.hero .carousel-item .text-1{
+    row-gap: 2rem;
+}
+
+.hero .carousel-inner .btn{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #FFFDF7;
+    border: 2px solid transparent;
+    width: 12rem;
+    padding: .5rem;
+    font-size: 1.5rem;
+    border-radius: 20rem;
+    text-decoration: underline;
+}
+
+.hero .carousel-inner .btn:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 2px solid #FFFDF7;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+
+/* Novedades */
+.novedades .carousel-inner{
+    padding: 1rem 4rem;
+}
+
+.novedades .card{
+    margin: 0 2rem;
+    border-radius: 3%;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, .18);
+    cursor: pointer;
+}
+
+.novedades .card-body .btn{
+    width: 100%;
+    border-radius: 20rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    column-gap: 1rem;
+}
+
+.novedades .card-body .btn h6{
+    margin-top: .5rem;
+}
+
+.novedades .image-wrapper{
+    max-width: 100%;
+    height: 12rem;
+    min-height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(219, 216, 216);
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    padding: 1.5rem;
+}
+
+.novedades img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.novedades img:hover{
+    transition: 1000ms;
+    transform: scale(1.2);
+}
+
+.novedades .card-text{
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+}
+
+.novedades .card-text:hover{
+    text-decoration: underline;
+    color: #6798C0;
+}
+
+.novedades .carousel-control-prev, .novedades .carousel-control-next{
+    width: 6vh;
+    height: 6vh;
+    background-color: #e1e1e1;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: .5;
+}
+
+.novedades .carousel-control-prev:hover, .novedades .carousel-control-next:hover{
+    opacity: 1;
+}
+
+/* Banner */
+.banner{
+    background: url(../img/banner.webp) 50%/ cover;
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.banner .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+}
+
+.banner h4{
+    text-align: center;
+    font-size: 2.4rem;
+}
+
+.banner .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(72, 72, 72);
+    background-color: #FFFDF7;
+    border: none;
+    width: 18rem;
+    height: 4rem;
+    padding: .5rem;
+    font-size: 1.5rem;
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.18);
+-webkit-box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.18);
+-moz-box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.18);
+}
+
+.banner .btn:hover{
+    background-color: #ffffff;
+    box-shadow: 0 0 16px 0 #FFFDF7;
+}
+
+.banner .btn-primary{
+    border: none;
+}
+
+
+/* Más vendidos */
+.masvendidos .carousel-inner{
+    padding: 1rem 4rem;
+}
+
+.masvendidos .card{
+    margin: 0 2rem;
+    border-radius: 3%;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, .18);
+    cursor: pointer;
+}
+
+.masvendidos .card-body .btn{
+    width: 100%;
+    border-radius: 20rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    column-gap: 1rem;
+}
+
+.masvendidos .card-body .btn h6{
+    margin-top: .5rem;
+}
+
+.masvendidos .image-wrapper{
+    max-width: 100%;
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(219, 216, 216);
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    padding: 1.5rem;
+}
+
+.masvendidos img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.masvendidos img:hover{
+    transition: 1000ms;
+    transform: scale(1.2);
+}
+
+.masvendidos .card-text{
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+}
+
+.masvendidos .card-text:hover{
+    text-decoration: underline;
+    color: #6798C0;
+}
+
+.masvendidos .carousel-control-prev, .masvendidos .carousel-control-next{
+    width: 6vh;
+    height: 6vh;
+    background-color: #e1e1e1;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: .5;
+}
+
+.masvendidos .carousel-control-prev:hover, .masvendidos .carousel-control-next:hover{
+    opacity: 1;
+}
+
+
+/* Categorias */
+.categorias .content{
+    height: 300px;
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.categorias .cat{
+    position: relative;
+    height: 10rem;
+}
+
+.categorias img{
+    height: 100%;
+    width: 100%;
+}
+
+.categorias .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background: #fdc921;
+    cursor: pointer;
+}
+
+.categorias .cat:nth-of-type(2) .overlay{
+    background: #6798C0;
+}
+
+.categorias .cat:nth-of-type(3) .overlay{
+    background: #6798C0;
+}
+
+.categorias .cat:nth-of-type(6) .overlay{
+    background: #6798C0;
+}
+
+.categorias .inner-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.categorias .cat:hover .overlay{
+    opacity: 1;
+}
+
+.categorias a{
+    text-decoration: none;
+}
+
+.categorias h4{
+    font-size: 1.8rem;
+}
+
+/* Marcas */
+.marcas{
+    margin-top: 12rem;
+}
+
+.marcas .content{
+    padding: 0 1rem;
+    margin-top: 4rem;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 4rem;
+}
+
+.marcas .marca{
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.marcas .content img{
+    height: 100%;
+    width: 70%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.marcas .content img:hover{
+    transition: 0.3s ease-in-out;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+/* Extra */
+.extra{
+    margin-top: 12rem;
+}
+
+.extra .content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+}
+
+.extra .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: .5rem;
+}
+
+.extra i{
+    font-size: 8rem;
+}
+
+/* Medias */
+@media screen and (min-width: 480px){
+
+    h6{
+        font-size: 1rem;
+    }
+
+    /* Novedades Responsive */
+    .novedades .carousel-inner{
+        display: flex;
+    }
+
+    .novedades .card{
+        min-width: 12rem;
+    }
+
+    .novedades .carousel-item{
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100% / 2);
+    }
+
+    .novedades .image-wrapper{
+        height: 12rem;
+        padding: 1.5rem 0;
+    }
+
+    .novedades .image-wrapper img{
+        height: 100%;
+    }
+
+    /* Mas vendidos Responsive */
+    .masvendidos .carousel-inner{
+        display: flex;
+    }
+
+    .masvendidos .card{
+        min-width: 12rem;
+    }
+
+    .masvendidos .carousel-item{
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100% / 2);
+    }
+
+    .masvendidos .image-wrapper{
+        height: 12rem;
+        padding: 1.5rem 0;
+    }
+
+    .masvendidos .image-wrapper img{
+        height: 100%;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+    /* Properties Responsive */
+    h1{
+        font-size: 5rem;
+    }
+    
+    h2{
+        font-size: 4rem;
+    }
+    
+    h3{
+        font-size: 3.4rem;
+    }
+    
+    h4{
+        font-size: 3rem;
+    }
+    
+    h5{
+        font-size: 2.4rem;
+    }
+    
+    h6{
+        font-size: 1rem;
+    }
+
+    /* Hero Responsive */
+    .hero .bg{
+        height: 75vh;
+    }
+
+    /* Novedades Responsive */
+    .novedades .carousel-inner{
+        display: flex;
+    }
+
+    .novedades .card{
+        min-width: 16rem;
+    }
+
+    .novedades .carousel-item{
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100% / 4);
+    }
+
+    .novedades .image-wrapper{
+        height: 12rem;
+        padding: 1.5rem 0;
+    }
+
+    .novedades .image-wrapper img{
+        height: 100%;
+    }
+
+    .novedades img:hover{
+        transition: 1000ms;
+        transform: scale(1.2);
+    }
+
+    /* Banner Responsive */
+    .banner .info{
+        flex-direction: row;
+        column-gap: 6rem;
+        padding: 0 2rem;
+    }
+
+    .banner h4{
+        margin: auto 0;
+        padding: auto 0;
+        text-align: justify;
+        font-size: 2.8rem;
+    }
+    
+    .banner .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(72, 72, 72);
+        background-color: #FFFDF7;
+        border: none;
+        width: 20rem;
+        height: 6rem;
+        padding: .5rem;
+        font-size: 1.5rem;
+    }
+
+    /* Más vendidos Responsive */
+    .masvendidos .carousel-inner{
+        display: flex;
+    }
+
+    .masvendidos .card{
+        min-width: 16rem;
+    }
+
+    .masvendidos .carousel-item{
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100% / 4);
+    }
+
+    .masvendidos .image-wrapper{
+        height: 12rem;
+        padding: 1.5rem 0;
+    }
+
+    .masvendidos .image-wrapper img{
+        height: 100%;
+    }
+
+    .masvendidos img:hover{
+        transition: 1000ms;
+        transform: scale(1.2);
+    }
+
+    /* Categorias Responsive */
+    .categorias .content{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .categorias .cat{
+        height: 16rem;
+    }
+
+    .categorias .cat:nth-of-type(3) .overlay{
+        background: #fdc921;
+    }
+    
+    .categorias .cat:nth-of-type(4) .overlay{
+        background: #6798C0;
+    }
+    
+    .categorias h4{
+        font-size: 2.4rem;
+    }
+
+    /* Marcas Responsive */
+    .marcas{
+        margin-top: 16rem;
+    }
+    
+    .marcas .content{
+        margin-top: 4rem;
+        grid-template-columns: repeat(4, 1fr);
+        row-gap: 2rem;
+    }
+    
+    .marcas .marca{
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .marcas .content img{
+        height: 100%;
+        width: 60%;
+    }
+
+    /* Extra Responsive */
+    .extra{
+        margin-top: 2rem;
+    }
+    
+    .extra .content{
+        display: flex;
+        flex-direction: row;
+        column-gap: 4rem;
+    }
+    
+    .extra .info{
+        row-gap: .8rem;
+    }
+
+}
