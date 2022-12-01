@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/nosotros.css">
+    <title>CRUD</title>
+</head>
+<body>
+  <!-- Inicio barra de navegacion -->
+    <nav class="navbar navbar-expand-lg BGC">
+        <div class="container-fluid ">
+          <img class="navbar-brand"id="logo" src="/assets/img/logo.png" alt="logo" style="margin-right: 10rem;">
+          <button class="btn btn-outline-lightt navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="/assets/img/menu_mobile.png" alt="menu-icon">
+          </button>
+          <div class="collapse navbar-collapse justify-content-between" id="navbarTogglerDemo01">
+            
+            <ul class="navbar-nav col-8">
+              <li class="nav-item col-3">
+                <a class="nav-link fuenteNav" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item col-3">
+                <a class="nav-link fuenteNav" aria-current="page" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item col-3">
+                <a class="nav-link fuenteNav" aria-current="page" href="#">Productos</a>
+              </li>
+              <li class="nav-item col-3">
+                <a class="nav-link fuenteNav" aria-current="page" href="#">Contacto</a>
+              </li>
+              <li class="nav-item col-3">
+                <a class="nav-link fuenteNav" aria-current="page" href="#">Cuenta</a>
+              </li>
+            </ul>
+            <div class="mb-auto">
+                <button class="btn btn-outline-lightt dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="/assets/img/lupa.png" alt="lupa">
+                </button>
+                <form class="dropdown-menu p-2 BGC" id="search">
+                  <div class="form-floating mb-3">
+                    <input type="search" class="form-control" id="floatingInput" placeholder="search">
+                    <label for="floatingInput">Ingrese producto</label>
+                  </div>
+                  <button type="submit" class="btn btn-primary BGCBlue">Buscar</button>
+                </form>
+                <button class="btn btn-outline-lightt" type="button"><img src="/assets/img/carrito.png" alt="carrito"></button>
+                <button class="btn btn-outline-lightt" id="mobileIcon" type="button"><img src="/assets/img/cel.png" alt="mobile"></button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- fin barra de navegacion -->
+  <!-- Tabla Crud -->
+  <div class="container-xl" id="tablacrudxl" class="">
+    <table class="table table-responsive" id="titulotabla">
+      <thead>
+        <th>
+          Productos Papelería
+        </th>
+    <th>Agregar valor: 
+      <button type="button" class="btn btn-warning"><img src="/assets/img/plus-circle.png" alt="add"></button>
+    </th>
+      </thead>
+    </table>
+    <table class="table table-striped table-hover table-responsive">
+      <thead>
+        <th ="d-flex justify-content-center">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+          </label>
+        </th>
+        <th>Producto</th>
+        <th>Tipo</th>
+        <th>Costo</th>
+        <th>SKU</th>
+        <th id="tablacrud1">Acciones</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+            </label></td>
+          <td>Caja Pluma Bic
+            p. Mediano
+            c/12 pzas</td>
+            <td>Marca BIC
+            </td>
+            <td>$89.00 mxn</td>
+            <td>UGG-BB-PUR-06</td>
+            <td class="d-flex justify-content-between" id="tablacrud1">
+              <button type="button" class="btn btn-link" id="botoncrud1"><img src="/assets/img/edit.png" alt="edit"></button>
+              <button type="button" class="btn btn-link" id="botoncrud1"><img src="/assets/img/trash.png" alt="trash"></button></td>
+        </tr>
+        <tr>
+          <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+            </label></td>
+          <td>Caja Pluma Bic
+            p. Mediano
+            c/12 pzas</td>
+            <td>Marca BIC
+            </td>
+            <td>$89.00 mxn</td>
+            <td>UGG-BB-PUR-06</td>
+            <td class="d-flex justify-content-between" id="tablacrud1">
+              <button type="button" class="btn btn-link" id="botoncrud1"><img src="/assets/img/edit.png" alt="edit"></button>
+              <button type="button" class="btn btn-link" id="botoncrud1"><img src="/assets/img/trash.png" alt="trash"></button></td>
+        </tr>
+        <tr>
+          <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+            </label></td>
+          <td>Caja Pluma Bic
+            p. Mediano
+            c/12 pzas</td>
+            <td>Marca BIC
+            </td>
+            <td>$89.00 mxn</td>
+            <td>UGG-BB-PUR-06</td>
+            <td class="d-flex justify-content-between" id="tablacrud1">
+              <button type="button" class="btn btn-link" id="botoncrud1"><img src="/assets/img/edit.png" alt="edit"></button>
+              <button type="button" class="btn btn-link" id="botoncrud1"><img src="/assets/img/trash.png" alt="trash"></button></td>
+        </tr>
+        <tr>
+          <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+            </label></td>
+          <td>Caja Pluma Bic
+            p. Mediano
+            c/12 pzas</td>
+            <td>Marca BIC
+            </td>
+            <td>$89.00 mxn</td>
+            <td>UGG-BB-PUR-06</td>
+            <td class="d-flex justify-content-between" id="tablacrud1">
+              <button type="button" class="btn btn-link" id="botoncrud1"><img src="/assets/img/edit.png" alt="edit"></button>
+              <button type="button" class="btn btn-link" id="botoncrud1"><img src="/assets/img/trash.png" alt="trash"></button></td>
+        </tr>
+        <tr>
+          <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+            </label></td>
+          <td>Caja Pluma Bic
+            p. Mediano
+            c/12 pzas</td>
+            <td>Marca BIC
+            </td>
+            <td>$89.00 mxn</td>
+            <td>UGG-BB-PUR-06</td>
+            <td class="d-flex justify-content-between" id="tablacrud1">
+              <button type="button" class="btn btn-link" id="botoncrud1"><img src="/assets/img/edit.png" alt="edit"></button>
+              <button type="button" class="btn btn-link" id="botoncrud1"><img src="/assets/img/trash.png" alt="trash"></button></td>
+        </tr>
+      </tbody>
+    </table>
+    <div>Mostrando 5 entradas</div>
+    </div>
+    <!-- Tabla crud -->
+      <!-- Empieza footer -->
+      <footer id="footer" class="container-fluid">
+    
+        <div id="fondoLogo" class="row">
+          <div class="col d-flex justify-content-center"> <img id="logosPagos" src="./assets/img/logos/logoPayPal.png" alt="logoPayPal"> </div>
+          <div class="col d-flex justify-content-center"> <img id="logosPagos" src="./assets/img/logos/logoVisa.png" alt="logoVisa"> </div>
+          <div class="col d-flex justify-content-center"> <img id="logosPagos" src="./assets/img/logos/logoMasterCard.png" alt="logoMasterCar"> </div>
+          <div class="col d-flex justify-content-center"> <img id="logosPagos" src="./assets/img/logos/logoAmex.png" alt="logoAmex"> </div>
+        </div>
+  
+        
+          <div class="row text-center">
+            <div class="col-6 col-sm-4" >
+              <p class="text-center my-2">Información</p>
+              <p class="text-center">
+                <a href="#">Inicio</a> <br>
+                <a href="#"> Nosotros </a> <br>
+              </p>
+            </div>
+            <div class="col-6 col-sm-4" >
+              <p class="text-center my-2">Servicio al cliente</p>
+            <p class="text-center">
+              <a href="#">Contáctanos</a> <br> 
+              <a href="#">Productos</a>
+            </p>
+            </div>
+            <div class="col-6 col-sm-4 ">
+              <p class="text-center my-2">Mi cuenta</p>
+              <p class="text-center">
+                <a href="#">Sesión</a> <br>
+                <a href="#">Mi carrito</a>
+                
+              </p>
+            </div>
+            
+  
+          <span class="logoRedes d-flex justify-content-center justify-content-sm-end ">
+            <a href="#"> <img class="mx-4" src="./assets/img/redesSociales/gmail.png" alt="Gmail"></a>
+            <a href="#"> <img class="mx-4" src="./assets/img/redesSociales/whatssap.png" alt="whatssap"></a> 
+            <a href="#"> <img class="mx-4" src="./assets/img/redesSociales/twitter.png" alt="Twitter"></a>
+            <a href="#"><img class="mx-4" src="./assets/img/redesSociales/facebook.png" alt="Facebook"></a>
+            <a href="#"><img class="mx-4" src="./assets/img/redesSociales/instagram.png" alt="Instagram"></a>
+            </span>
+  
+            <span class="d-flex justify-content-center justify-content-sm-start my-1"> 
+              &copy;Derechos reservados 2022 
+            </span>
+            
+  
+            
+
+          
+    </footer>
+<!-- Termina footer -->
+    
+      
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script src="/assets/js/nosotros.js"></script>
+    
+</body>
+</html>
