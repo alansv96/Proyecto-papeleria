@@ -1,205 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 
-        <!-- Bootstrap -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
-    
-        <!-- Styles -->
-    <link rel="stylesheet" href="./assets/css/contacto.css">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
 
-    
+  <!-- Styles -->
+  <link rel="stylesheet" href="./assets/css/alanCSS/contacto.css">
+  <link rel="stylesheet" href="./assets/css/styleBody/body.css">
+  <link rel="stylesheet" href="./assets/css/styleForm/formulario.css">
+
+
 </head>
+
 <body>
-     <!-- Inicio barra de navegacion -->
-     <nav class="navbar navbar-expand-lg BGC">
-        <div class="container-fluid ">
-          <img class="navbar-brand"id="logo" src="/assets/img/itemsNavBar/logo.png" alt="logo" style="margin-right: 10rem;">
-          <button class="btn btn-outline-lightt navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <img src="/assets/img/itemsNavBar/menu_mobile.png" alt="menu-icon">
+  <!-- Inicio barra de navegacion -->
+
+  <nav class="navbar navbar-expand-lg BGC">
+    <div class="container-fluid ">
+      <img class="navbar-brand" id="logo" src="/assets/img/itemsNavBar/logo.png" alt="logo"
+        style="margin-right: 10rem;">
+      <button class="btn btn-outline-lightt navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <img src="/assets/img/itemsNavBar/menu_mobile.png" alt="menu-icon">
+      </button>
+      <div class="collapse navbar-collapse justify-content-between" id="navbarTogglerDemo01">
+
+        <ul class="navbar-nav col-8">
+          <li class="nav-item col-3">
+            <a class="nav-link fuenteNav" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link fuenteNav" aria-current="page" href="nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link fuenteNav" aria-current="page" href="productos.html">Productos</a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link fuenteNav" aria-current="page" href="contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link fuenteNav" aria-current="page" href="login.html">Cuenta</a>
+          </li>
+        </ul>
+        <div class="mb-auto">
+          <button class="btn btn-outline-lightt dropdown-toggle " type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <img src="/assets/img/itemsNavBar/lupa.png" alt="lupa">
           </button>
-          <div class="collapse navbar-collapse justify-content-between" id="navbarTogglerDemo01">
-            
-            <ul class="navbar-nav col-8">
-              <li class="nav-item col-3">
-                <a class="nav-link fuenteNav" aria-current="page" href="#">Inicio</a>
-              </li>
-              <li class="nav-item col-3">
-                <a class="nav-link fuenteNav" aria-current="page" href="#">Nosotros</a>
-              </li>
-              <li class="nav-item col-3">
-                <a class="nav-link fuenteNav" aria-current="page" href="#">Productos</a>
-              </li>
-              <li class="nav-item col-3">
-                <a class="nav-link fuenteNav" aria-current="page" href="#">Contacto</a>
-              </li>
-              <li class="nav-item col-3">
-                <a class="nav-link fuenteNav" aria-current="page" href="#">Cuenta</a>
-              </li>
-            </ul>
-            <div class="mb-auto">
-                <button class="btn btn-outline-lightt dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <img src="/assets/img/itemsNavBar/lupa.png" alt="lupa">
-                </button>
-                <form class="dropdown-menu p-2 BGC" id="search">
-                  <div class="form-floating mb-3">
-                    <input type="search" class="form-control" id="floatingInput" placeholder="search">
-                    <label for="floatingInput">Ingrese producto</label>
-                  </div>
-                  <button type="submit" class="btn btn-primary BGCBlue">Buscar</button>
-                </form>
-                <button class="btn btn-outline-lightt" type="button"><img src="/assets/img/itemsNavBar/carrito.png" alt="carrito"></button>
-                <button class="btn btn-outline-lightt" id="mobileIcon" type="button"><img src="/assets/img/itemsNavBar/cel.png" alt="mobile"></button>
+          <form class="dropdown-menu p-2 BGC" id="search">
+            <div class="form-floating mb-3">
+              <input type="search" class="form-control" id="floatingInput" placeholder="search">
+              <label for="floatingInput">Ingrese producto</label>
             </div>
+            <button type="submit" class="btn btn-primary BGCBlue">Buscar</button>
+          </form>
+          <button class="btn btn-outline-lightt" type="button"><img src="/assets/img/itemsNavBar/carrito.png"
+              alt="carrito"></button>
+          <button class="btn btn-outline-lightt" id="mobileIcon" type="button"><img
+              src="/assets/img/itemsNavBar/cel.png" alt="mobile"></button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- fin barra del navegacion -->
+
+  <!-- inicio de body -->
+
+  <main>
+
+  <section class="seccion">
+    <div>
+      <form class="formulario container" id="formulario">
+
+        <!-- Grupo: Nombre -->
+        <div class="formulario__grupo" id="grupo__nombre">
+          <label for="nombre" class="formulario__label fuenteNav">Nombre(s) *</label>
+          <div class="formulario__grupo-input">
+            <input type="text" class="inputNombre formulario__input form-control" name="nombre" id="nombre">
+            <i class=" formulario__validacion-estado fas fa-times-circle"></i>
           </div>
+          <p class="formulario__input-error ">El nombre no puede tener simbología.</p>
         </div>
-      </nav>
-      <!-- fin barra del navegacion -->
 
-      <!-- inicio de body -->
-    <section class="seccion">
-        <div>
-            <form class="formulario ">
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label fuenteNav">Nombre(s) *</label>
-                  <input placeholder="Ingresa tu nombre(s)" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label fuenteNav">Teléfono</label>
-                  <input placeholder="Ingresa tu mensaje" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label fuenteNav">Correo</label>
-                  <input placeholder="Ingresa tu correo Email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label fuenteNav">Mensaje</label>
-                  <input placeholder="Ingresa tu mensaje" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                </div>
-                <span class="botonEnviar d-flex justify-content-center">
-                <button type="submit" class="btn btn-primary">Submit</button>
-                </span>
-              </form>
+        <!-- Grupo: Teléfono -->
+        <div class="formulario__grupo" id="grupo__telefono">
+          <label for="telefono" class="formulario__label fuenteNav form-label">Teléfono *</label>
+          <div class="formulario__grupo-input">
+            <input type="text" class="formulario__input inputTelefono form-control" name="telefono" id="telefono"
+              placeholder="4491234567">
+            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+          </div>
+          <p class="formulario__input-error">El telefono solo puede contener numeros y el maximo son 14 dígitos.</p>
         </div>
-        <div class="imgContactanos">
-            <img src="./assets/img/body/contactanos.png" alt="contactanos">
-        </div>
-    </section>
 
-    <section class="seccion">
-        <div class="imgVisitanos">
-            <img src="./assets/img/body/visitanos.png" alt="visitanos">
-        </div>
-        <div>
-            <iframe
+        <!-- Grupo: Correo Electronico -->
+			<div class="formulario__grupo" id="grupo__correo">
+				<label for="correo" class="formulario__label fuenteNav">Correo Electrónico *</label>
+				<div class="formulario__grupo-input">
+					<input type="email" class="formulario__input form-control inputCorreo" name="correo" id="correo" placeholder="correo@correo.com">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+        <p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</p>
+			</div>
+
+              <!-- Grupo: Mensaje -->
+              <div class="formulario__grupo" id="grupo__mensaje">
+                <label for="mensaje" class="formulario__label fuenteNav">Mensaje *</label>
+                <div class="formulario__grupo-input">
+                  <input type="text" class="inputMensaje formulario__input form-control" name="mensaje" id="mensaje" maxlength="1000">
+                  <i class=" formulario__validacion-estado fas fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error">Escribe como minimo 4 caracteres, solo puede contener letras y numeros.</p>
+              </div>
+
+            <!-- Grupo de boton enviar -->
+      <div class="formulario__mensaje" id="formulario__mensaje">
+        <p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente.
+        </p>
+      </div>
+
+      <div class="formulario__grupo formulario__grupo-btn-enviar d-flex justify-content-center botonEnviar">
+        <button type="submit" class="formulario__btn ">Enviar</button>
+        <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Pronto nos pondremos en contacto contigo!</p>
+      </div>
+
+    </form>
+    </div>
+
+    <div class="imgContactanos">
+      <img src="./assets/img/body/contactanos.png" alt="contactanos">
+    </div>
+  </section>
+
+  <section class="seccion">
+    <div class="imgVisitanos">
+      <img src="./assets/img/body/visitanos.png" alt="visitanos">
+    </div>
+    <div>
+      <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.0058233210934!2d-99.118946509138!3d19.455315740559154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f9422486de73%3A0x2ebd8642d94abc34!2sC.%20Plomo%20214%2C%20Valle%20G%C3%B3mez%2C%20Venustiano%20Carranza%2C%2015210%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses!2smx!4v1669360261147!5m2!1ses!2smx"
-          width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-    </section>
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+</main>
 
-        <!-- fin del body -->
 
-        <!-- inicio de redes -->
+  <!-- fin del body -->
 
-        <div>
-  
-            <p class="redes text-center">
-              ¡Vistitanos en nuestras redes!
-            </p>
-          
-            <div id="fondoRedes">
-              <p class="logoRedes d-flex justify-content-center">
-                <a href="#"> <img class="redSocial mx-4" src="./assets/img/redesSociales/logosColor/gmailC.png" alt="Gmail"></a>
-                <a href="#"> <img class="redSocial mx-4" src="./assets/img/redesSociales/logosColor/whatsappC.png"
-                    alt="whatssap"></a>
-                <a href="#"> <img class="redSocial mx-4" src="./assets/img/redesSociales/logosColor/twitterC.png"
-                    alt="Twitter"></a>
-                <a href="#"><img class="redSocial mx-4" src="./assets/img/redesSociales/logosColor/facebookC.png"
-                    alt="Facebook"></a>
-                <a href="#"><img class="redSocial mx-4" src="./assets/img/redesSociales/logosColor/instagramC.png"
-                    alt="Instagram"></a>
-              </p>
-            </div>
-          
-          </div>
+  <!-- inicio de redes -->
 
-        <!-- fin de redes -->
+  <div>
 
-        <!-- inicio de footer -->
+    <p class="redes text-center">
+      ¡Vistitanos en nuestras redes!
+    </p>
 
-        <footer id="footer" class="container-fluid">
-    
-            <div id="fondoLogo" class="row">
-              <div class="col d-flex justify-content-center"> <img id="logosPagos" src="./assets/img/logosPagos/logoPayPal.png" alt="logoPayPal"> </div>
-              <div class="col d-flex justify-content-center"> <img id="logosPagos" src="./assets/img/logosPagos/logoVisa.png" alt="logoVisa"> </div>
-              <div class="col d-flex justify-content-center"> <img id="logosPagos" src="./assets/img/logosPagos/logoMasterCard.png" alt="logoMasterCar"> </div>
-              <div class="col d-flex justify-content-center"> <img id="logosPagos" src="./assets/img/logosPagos/logoAmex.png" alt="logoAmex"> </div>
-            </div>
-      
-            
-              <div class="row text-center">
-                <div class="col-6 col-sm-4" >
-                  <p class="text-center my-2">Información</p>
-                  <p class="text-center">
-                    <a href="#">Inicio</a> <br>
-                    <a href="#"> Nosotros </a> <br>
-                  </p>
-                </div>
-                <div class="col-6 col-sm-4" >
-                  <p class="text-center my-2">Servicio al cliente</p>
-                <p class="text-center">
-                  <a href="#">Contáctanos</a> <br> 
-                  <a href="#">Productos</a>
-                </p>
-                </div>
-                <div class="col-6 col-sm-4 ">
-                  <p class="text-center my-2">Mi cuenta</p>
-                  <p class="text-center">
-                    <a href="#">Sesión</a> <br>
-                    <a href="#">Mi carrito</a>
-                    
-                  </p>
-                </div>
-                
-      
-              <span class="logoRedes d-flex justify-content-center justify-content-sm-end ">
-                <a href="#"> <img class="mx-4" src="./assets/img/redesSociales/gmail.png" alt="Gmail"></a>
-                <a href="#"> <img class="mx-4" src="./assets/img/redesSociales/whatssap.png" alt="whatssap"></a> 
-                <a href="#"> <img class="mx-4" src="./assets/img/redesSociales/twitter.png" alt="Twitter"></a>
-                <a href="#"><img class="mx-4" src="./assets/img/redesSociales/facebook.png" alt="Facebook"></a>
-                <a href="#"><img class="mx-4" src="./assets/img/redesSociales/instagram.png" alt="Instagram"></a>
-                </span>
-      
-                <span class="d-flex justify-content-center justify-content-sm-start my-1"> 
-                  &copy;Derechos reservados 2022 
-                </span>
-                
-      
-                
-    
-              
-        </footer>
-        
-        <!-- fin de footer -->
-        
+    <div id="fondoRedes">
+      <p class="logoRedes d-flex justify-content-center">
+        <a href="#"> <img class="redSocial mx-4" src="./assets/img/redesSociales/logosColor/gmailC.png" alt="Gmail"></a>
+        <a href="#"> <img class="redSocial mx-4" src="./assets/img/redesSociales/logosColor/whatsappC.png"
+            alt="whatssap"></a>
+        <a href="#"> <img class="redSocial mx-4" src="./assets/img/redesSociales/logosColor/twitterC.png"
+            alt="Twitter"></a>
+        <a href="#"><img class="redSocial mx-4" src="./assets/img/redesSociales/logosColor/facebookC.png"
+            alt="Facebook"></a>
+        <a href="#"><img class="redSocial mx-4" src="./assets/img/redesSociales/logosColor/instagramC.png"
+            alt="Instagram"></a>
+      </p>
+    </div>
 
-        <!-- JavaScript -->
-        <script src="./assets/js/navbar.js"></script>
-        <script src="./assets/js/validacionC.js"></script>
+  </div>
 
-        <!-- Bootstrap -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
+  <!-- fin de redes -->
+
+  <!-- inicio de footer -->
+
+  <footer id="footer" class="container-fluid">
+
+    <div id="fondoLogo" class="row">
+      <div class="col d-flex justify-content-center"> <img id="logosPagos" src="./assets/img/logosPagos/logoPayPal.png"
+          alt="logoPayPal"> </div>
+      <div class="col d-flex justify-content-center"> <img id="logosPagos" src="./assets/img/logosPagos/logoVisa.png"
+          alt="logoVisa"> </div>
+      <div class="col d-flex justify-content-center"> <img id="logosPagos"
+          src="./assets/img/logosPagos/logoMasterCard.png" alt="logoMasterCar"> </div>
+      <div class="col d-flex justify-content-center"> <img id="logosPagos" src="./assets/img/logosPagos/logoAmex.png"
+          alt="logoAmex"> </div>
+    </div>
+
+
+    <div class="row text-center">
+      <div class="col-6 col-sm-4">
+        <p class="text-center my-2">Información</p>
+        <p class="text-center">
+          <a href="index.html">Inicio</a> <br>
+          <a href="nosotros.html"> Nosotros </a> <br>
+        </p>
+      </div>
+      <div class="col-6 col-sm-4">
+        <p class="text-center my-2">Servicio al cliente</p>
+        <p class="text-center">
+          <a href="contacto.html">Contáctanos</a> <br>
+          <a href="productos.html">Productos</a>
+        </p>
+      </div>
+      <div class="col-6 col-sm-4 ">
+        <p class="text-center my-2">Mi cuenta</p>
+        <p class="text-center">
+          <a href="login.html">Sesión</a> <br>
+          <a href="crud.html">Mi carrito</a>
+
+        </p>
+      </div>
+
+
+      <span class="logoRedes d-flex justify-content-center justify-content-sm-end ">
+        <a href="#"> <img class="mx-4" src="./assets/img/redesSociales/gmail.png" alt="Gmail"></a>
+        <a href="#"> <img class="mx-4" src="./assets/img/redesSociales/whatssap.png" alt="whatssap"></a>
+        <a href="#"> <img class="mx-4" src="./assets/img/redesSociales/twitter.png" alt="Twitter"></a>
+        <a href="#"><img class="mx-4" src="./assets/img/redesSociales/facebook.png" alt="Facebook"></a>
+        <a href="#"><img class="mx-4" src="./assets/img/redesSociales/instagram.png" alt="Instagram"></a>
+      </span>
+
+      <span class="d-flex justify-content-center justify-content-sm-start my-1">
+        &copy;Derechos reservados 2022
+      </span>
+
+
+
+
+
+  </footer>
+
+  <!-- fin de footer -->
+
+
+  <!-- JavaScript -->
+  <script src="./assets/js/navbar.js"></script>
+  <script src="./assets/js/validacionC.js"></script>
+  <script src="./assets/js/superPlaceHolder.js"></script>
+
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+  <!-- Fontawesome -->
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+
+  <!-- Super placeholder -->
+  <script src="./assets/js/superplaceholder.min.js"></script>
+  <script src="./assets/js/superPlaceHolder.js"></script>
 
 
 </body>
+
 </html>

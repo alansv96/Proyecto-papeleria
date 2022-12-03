@@ -1,0 +1,23 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.seccion{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.seccion img{
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px){
+  .seccion{
+      grid-template-columns: repeat (1, 1fr);
+  }
+  .seccion .display{
+      display: none;
+  }
+}
