@@ -21,3 +21,24 @@
       display: none;
   }
 }
+
+@media screen and (max-width: 767px){
+  .formulario{
+    width: 100vh;
+  }
+
+  .imgContactanos{
+    display: none;
+  }
+
+  .imgVisitanos{
+    display: none;
+  }
+
+  .googleMaps{
+  width: 100%; 
+}
+
+}
+
+
