@@ -14,6 +14,16 @@ label{
   width: 100%;
 }
 
+.opciones{
+	background-color: #6798C0;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+}
+
+.opciones:hover{
+	background-color:lightblue;
+}
+
 
 .formulario__mensaje {
 height: 45px;
@@ -176,3 +186,4 @@ display: block;
 		width: 100%;
 	}
 }
+

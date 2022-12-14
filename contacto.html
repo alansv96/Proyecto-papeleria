@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
@@ -7,16 +7,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contacto</title>
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
 
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
 
   <!-- Styles -->
-  <link rel="stylesheet" href="./assets/css/alanCSS/contacto.css">
+  <link rel="stylesheet" href="./assets/css/footer_navbar/footer_navbar.css">
   <link rel="stylesheet" href="./assets/css/styleBody/body.css">
   <link rel="stylesheet" href="./assets/css/styleForm/formulario.css">
+  <link rel="stylesheet" href="./assets/css/cardstyle/card.css">
 
 
 </head>
@@ -78,9 +79,11 @@
 
   <main>
 
+
+
   <section class="seccion">
     <div>
-      <form class="formulario container" id="formulario">
+      <form action="https://formsubmit.co/eb382811@gmail.com" method="POST" class="formulario container" id="formulario">
 
         <!-- Grupo: Nombre -->
         <div class="formulario__grupo" id="grupo__nombre">
@@ -117,7 +120,7 @@
               <div class="formulario__grupo" id="grupo__mensaje">
                 <label for="mensaje" class="formulario__label fuenteNav">Mensaje *</label>
                 <div class="formulario__grupo-input">
-                  <input type="text" class="inputMensaje formulario__input form-control" name="mensaje" id="mensaje" maxlength="1000">
+                  <textarea type="text" class="inputMensaje formulario__input form-control" name="mensaje" id="mensaje" cols="97" rows="10"></textarea>
                   <i class=" formulario__validacion-estado fas fa-times-circle"></i>
                 </div>
                 <p class="formulario__input-error">Escribe como minimo 4 caracteres, solo puede contener letras y numeros.</p>
@@ -213,7 +216,8 @@
         <p class="text-center my-2">Servicio al cliente</p>
         <p class="text-center">
           <a href="contacto.html">Contáctanos</a> <br>
-          <a href="productos.html">Productos</a>
+          <a href="productos.html">Productos</a> <br>
+          <a href="colaboradores.html">Colaboradores</a>
         </p>
       </div>
       <div class="col-6 col-sm-4 ">
@@ -230,8 +234,8 @@
         <a href="#"> <img class="mx-4" src="./assets/img/redesSociales/gmail.png" alt="Gmail"></a>
         <a href="#"> <img class="mx-4" src="./assets/img/redesSociales/whatssap.png" alt="whatssap"></a>
         <a href="#"> <img class="mx-4" src="./assets/img/redesSociales/twitter.png" alt="Twitter"></a>
-        <a href="#"><img class="mx-4" src="./assets/img/redesSociales/facebook.png" alt="Facebook"></a>
-        <a href="#"><img class="mx-4" src="./assets/img/redesSociales/instagram.png" alt="Instagram"></a>
+        <a href="#"> <img class="mx-4" src="./assets/img/redesSociales/facebook.png" alt="Facebook"></a>
+        <a href="#"> <img class="mx-4" src="./assets/img/redesSociales/instagram.png" alt="Instagram"></a>
       </span>
 
       <span class="d-flex justify-content-center justify-content-sm-start my-1">
@@ -263,6 +267,7 @@
   <!-- Super placeholder -->
   <script src="./assets/js/superplaceholder.min.js"></script>
   <script src="./assets/js/superPlaceHolder.js"></script>
+
 
 
 </body>

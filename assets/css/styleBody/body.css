@@ -15,30 +15,27 @@
 
 @media screen and (max-width: 768px){
   .seccion{
-      grid-template-columns: repeat (1, 1fr);
+      grid-template-columns: repeat(1, 1fr);
   }
   .seccion .display{
       display: none;
   }
-}
-
-@media screen and (max-width: 767px){
   .formulario{
     width: 100vh;
   }
-
+  
   .imgContactanos{
     display: none;
   }
-
+  
   .imgVisitanos{
     display: none;
   }
-
+  
   .googleMaps{
   width: 100%; 
+  }
 }
 
-}
 
 
