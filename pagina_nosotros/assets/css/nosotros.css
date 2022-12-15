@@ -4,14 +4,16 @@
     justify-content:end;
     align-items: center;
     height: 500px;
-    background-image: url(/assets/img/unsplash_Bf_ItbkEBjI.jpg);
+    background:linear-gradient(rgba(5, 7, 12, 0.50), rgba(5, 7, 12, .50)),url(/assets/img/unsplash_Bf_ItbkEBjI.jpg) ;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
 }
 .BGCBlue{
     background-color: #6798C0;
+    
 }
+
 .BGC{
     background-color: #FFFDF7;
 }
@@ -38,14 +40,15 @@
 h1{
     
     font-size: 4rem;
-    color: #FFFDF7;
+    color: white;
     font-family:'League Spartan', sans-serif ;
+    
 }
 .p1{
    
     font-size: 1.8rem;
     font-family: 'Montserrat', sans-serif;
-    color:#FFFDF7 ;
+    color:white  ;
 
 
 }
@@ -120,26 +123,17 @@ p{
       
     } 
 }
-@media (min-width:1600px) {
+@media (min-width:1400px) {
     #search{
         position: absolute;
         width: 400px;
       
-        left: 1450px;
+        left: 1120px;
         
       
     } 
 }
-/* @media (min-width:1400px) {
-    #search{
-        position: absolute;
-        width: 400px;
-      
-        left: 1100px;
-        
-      
-    } 
-} */
+
  @media (max-width:480px){
     #logosPagos{
         width: 4rem;
@@ -154,7 +148,7 @@ p{
         justify-content:end;
         align-items: center;
         height: 1200px;
-        background-image: url(/assets/img/unsplash_Bf_ItbkEBjI.jpg);
+        background:linear-gradient(rgba(5, 7, 12, 0.50), rgba(5, 7, 12, .50)),url(/assets/img/unsplash_Bf_ItbkEBjI.jpg) ;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100% 100%;

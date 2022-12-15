@@ -14,3 +14,9 @@ searchInputDropdown.addEventListener("submit",(evento)=>{
     searchInputDropdown.reset()
 
 })
+
+function mobile(){
+    
+    window.resizeTo(window.screen.availWidth / 2,window.screen.availHeight / 2)
+
+}
