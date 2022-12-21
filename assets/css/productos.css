@@ -1,0 +1,729 @@
+/*---------------------------navbar------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Montserrat:ital,wght@1,600&display=swap');
+
+.BGCBlue {
+    background-color: #6798C0;
+
+}
+
+.BGC {
+    background-color: #FFFDF7;
+}
+
+#logo {
+    height: 3rem;
+
+}
+
+.btn-outline-lightt {
+    background-color: #FFFDF7;
+}
+
+.sinMargin {
+    margin: 0;
+
+}
+
+.fuenteNav {
+
+    color: #6798C0;
+    font-size: 20px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+
+h1 {
+
+    font-size: 4rem;
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+
+}
+
+.p1 {
+
+    font-size: 1.8rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+
+
+}
+
+.nosotrosPadding {
+
+    padding-right: 40px;
+
+}
+
+.imagen {
+    max-height: 8rem;
+    width: 8rem;
+
+
+}
+
+.titleCardBlue {
+    font-size: 2.4rem;
+    font-family: 'League Spartan', sans-serif;
+    color: #6798C0;
+
+}
+
+.textCardBlue {
+    font-size: 1.8rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #6798C0;
+
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFDF7;
+    font-size: 1rem;
+
+
+}
+
+a:hover {
+    font-size: 1rem;
+    color: #FFFDF7;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFDF7;
+    font-size: 1.4rem;
+
+}
+
+#fondoLogo {
+
+    background-color: #FFFDF7;
+}
+
+.redes {
+    background-color: rgb(148, 211, 248);
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+}
+
+
+
+
+#footer {
+    background-color: #090F46;
+    color: white;
+}
+
+@media (min-width:1199px) {
+    #search {
+        position: absolute;
+        width: 400px;
+
+        left: 800px;
+
+
+    }
+}
+
+@media (min-width:1400px) {
+    #search {
+        position: absolute;
+        width: 400px;
+
+        left: 1120px;
+
+
+    }
+}
+
+@media (max-width:480px) {
+    #logosPagos {
+        width: 4rem;
+        height: 2rem;
+
+
+
+
+    }
+
+    #search {
+        position: absolute;
+        width: 350px;
+
+
+
+
+    }
+
+
+
+}
+
+@media (min-width:481px) {
+    #logosPagos {
+        width: 6rem;
+        height: 3rem;
+
+
+
+    }
+
+
+
+
+}
+
+@media (min-width:768px) {
+    #logosPagos {
+        width: 10rem;
+        height: 5rem;
+
+
+    }
+
+    .textCardBlue {
+        font-size: 1.4rem;
+    }
+
+    #search {
+        position: absolute;
+        width: 400px;
+
+
+
+
+    }
+
+}
+
+@media (max-width:991px) {
+    #mobileIcon {
+        visibility: hidden;
+    }
+}
+
+.filtro {
+    display: none;
+}
+
+.my-fixed-item {
+    position: fixed;
+    min-height: 120px;
+    width: 400px;
+    word-wrap: break-word;
+    right: 10px;
+
+}
+
+#ocultar {
+    background-color: transparent;
+    border: none;
+}
+
+/*---------------------------imgresp0onsive------------------------*/
+
+@media (max-width:1200px) {
+    #imgh {
+        width: 100%;
+        height: 100%;
+    }
+
+
+}
+
+@media (min-width:481px) {
+    #imgh {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+/*---------------------------imgresp0onsive------------------------*/
+
+
+
+/*---------------------------carusel------------------------*/
+/*
+#c{
+    color: #090F46;
+}
+.ti{
+
+    color: #FDD85D;
+    
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 2rem;
+}
+
+.carru{
+
+
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    background-color: #FFFDF7;
+
+}
+.slide-container{
+    max-width: 1120px ;
+    width: 100%;
+    background-color: #FFFDF7 ;
+    padding: 40px 0;
+
+
+}
+.slide-content{
+    margin: 0 40px;
+}
+
+
+
+.card{
+   
+    background-color: #FFFDF7;
+}
+
+.image-content,
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.image-content{
+    position: relative;
+   row-gap: 5px ; 
+}
+
+
+
+.card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color:#FFFDF7;
+    padding: 3px;
+}
+
+.card-image .card-imag{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 2px solid ;
+    
+}
+
+.name{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+
+.description{
+    font-size: 14px;
+    color: black;
+    text-align:center ;
+
+}
+.button{
+    border: none;
+    font-size: 16px;
+    color: #FFFDF7;
+    padding: 8px 16px;
+    background-color: #6798C0;
+    border-radius: 6px ;
+    margin: 14px ;
+    transition: all 0.3s ease;
+}
+
+.button:hover{
+    background: #FDD85D;
+}
+*/
+
+
+
+
+
+/*---------------------------carusel------------------------*/
+/* Novedades */
+#C {
+    color: #FDD85D;
+}
+
+.didactico .carousel-inner {
+    padding: 1rem 4rem;
+}
+
+.didactico .card {
+    margin: 0 2rem;
+    border-radius: 3%;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, .18);
+    cursor: pointer;
+}
+
+.didactico .card-body .btn {
+    width: 100%;
+    border-radius: 20rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    column-gap: 1rem;
+}
+
+.didactico .card-body .btn h6 {
+    margin-top: .5rem;
+}
+
+.didactico .image-wrapper {
+    max-width: 100%;
+    height: 12rem;
+    min-height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(219, 216, 216);
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    padding: 1.5rem;
+}
+
+.didactico img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.didactico img:hover {
+    transition: 1000ms;
+    transform: scale(1.2);
+}
+
+.didactico .card-text {
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+}
+
+.didactico .card-text:hover {
+    text-decoration: underline;
+    color: #6798C0;
+}
+
+.didactico .carousel-control-prev,
+.didactico .carousel-control-next {
+    width: 6vh;
+    height: 6vh;
+    background-color: #e1e1e1;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: .5;
+}
+
+.didactico .carousel-control-prev:hover,
+.didactico .carousel-control-next:hover {
+    opacity: 1;
+}
+
+
+
+/* Novedades */
+@media screen and (min-width: 480px) {
+
+    h6 {
+        font-size: 1rem;
+    }
+
+    /* Novedades Responsive */
+    .didactico .carousel-inner {
+        display: flex;
+    }
+
+    .didactico .card {
+        min-width: 12rem;
+    }
+
+    .didactico .carousel-item {
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100% / 2);
+    }
+
+    .didactico .image-wrapper {
+        height: 12rem;
+        padding: 1.5rem 0;
+    }
+
+    .didactico .image-wrapper img {
+        height: 100%;
+    }
+
+
+
+}
+
+@media screen and (min-width: 768px) {
+
+    /* Properties Responsive */
+    h1 {
+        font-size: 5rem;
+    }
+
+    h2 {
+        font-size: 4rem;
+    }
+
+    h3 {
+        font-size: 3.4rem;
+    }
+
+    h4 {
+        font-size: 3rem;
+    }
+
+    h5 {
+        font-size: 2.4rem;
+    }
+
+    h6 {
+        font-size: 1rem;
+    }
+
+    /* Hero Responsive */
+    .hero .bg {
+        height: 75vh;
+    }
+
+    /* Novedades Responsive */
+    .didactico .carousel-inner {
+        display: flex;
+    }
+
+    .didactico .card {
+        min-width: 16rem;
+    }
+
+    .didactico .carousel-item {
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100% / 4);
+    }
+
+    .didactico .image-wrapper {
+        height: 12rem;
+        padding: 1.5rem 0;
+    }
+
+    .didactico .image-wrapper img {
+        height: 100%;
+    }
+
+    .didactico img:hover {
+        transition: 1000ms;
+        transform: scale(1.2);
+    }
+
+
+
+}
+
+
+
+
+
+
+/*---------------------------navbar------------------------*/
+
+
+/*---------------------------footer------------------------*/
+
+
+
+footer a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFDF7;
+    font-size: 1rem;
+
+
+}
+
+footer a:hover {
+    font-size: 1rem;
+    color: #FFFDF7;
+}
+
+footer p {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFDF7;
+    font-size: 1.4rem;
+
+}
+
+footer #fondoLogo {
+    background-color: #FFFDF7;
+}
+
+footer .redes {
+    background-color: rgb(148, 211, 248);
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+}
+
+#footer {
+    background-color: #090F46;
+    color: white;
+}
+
+@media (min-width:1199px) {
+    #search {
+        position: absolute;
+        width: 400px;
+        left: 800px;
+    }
+}
+
+@media (min-width:1600px) {
+    #search {
+        position: absolute;
+        width: 400px;
+        left: 1450px;
+    }
+}
+
+@media (max-width:480px) {
+    #logosPagos {
+        width: 4rem;
+        height: 2rem;
+    }
+
+    #search {
+        width: 350px;
+    }
+}
+
+@media (min-width:481px) {
+    #logosPagos {
+        width: 6rem;
+        height: 3rem;
+    }
+}
+
+@media (min-width:768px) {
+    #logosPagos {
+        width: 10rem;
+        height: 5rem;
+    }
+
+    #search {
+        position: absolute;
+        width: 400px;
+    }
+}
+
+@media (max-width:991px) {
+    #mobileIcon {
+        visibility: hidden;
+    }
+}
+
+/*---------------------------footer------------------------*/
+
+
+
+/* Crud start */
+
+
+@media (max-width:619px) {
+    #tituloresponsive1 {
+        visibility: hidden;
+    }
+}
+
+
+
+#tablacrudcontenedor {
+
+    font-family: 'League Spartan', sans-serif;
+
+}
+
+#tablacrudxl {
+
+    margin-bottom: 5rem;
+
+}
+
+#titulotabla {
+    background-color: #6798C0;
+    color: white;
+    font-size: 2rem;
+}
+
+#botonadd1 {
+    background-color: #FDC921;
+    border-color: rgba(0, 128, 0, 0);
+
+
+}
+
+#botonadd1:hover {
+
+    background-color: #fdca21ef;
+    border-color: rgba(0, 128, 0, 0);
+}
+
+#botonadd2 {
+    background-color: #6798C0;
+    border-color: rgba(0, 128, 0, 0);
+    color: white;
+
+}
+
+#botonadd2:hover {
+
+    background-color: #a8d8ff00;
+    border-color: #6798C0;
+    color: #6798C0;
+}
+
+
+
+#titulotabla {
+
+    color: white;
+
+}
+
+#closeover51 {
+    background-color: #00000000;
+    border-color: #00000000;
+    font-size: 1.3rem;
+}
+
+
+
+#miModal {
+    color: black;
+    font-size: 1rem;
+}
+
+
+#botoncolor1 {
+    color: #6798C0;
+
+}
+
+/* Crud end */
