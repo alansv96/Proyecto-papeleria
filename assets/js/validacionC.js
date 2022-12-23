@@ -2,7 +2,7 @@ const formulario = document.getElementById('formulario');
 const inputs = document.querySelectorAll('#formulario input');
 
 const expresiones = {
-	mensaje: /^[a-zA-ZÀ-ÿ\s0-9]{4,100}$/, // Letras y numeros.
+	mensaje: /^[a-zA-ZÀ-ÿ\s0-9,!"#$%&/()=?¿¡']{4,100}$/, // Letras y numeros.
 	nombre: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, // Letras y espacios, pueden llevar acentos.
 	correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.(com|net|mx)+$/,
 	telefono: /^\d{7,14}$/ // 7 a 14 numeros.
