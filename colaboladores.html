@@ -14,6 +14,7 @@
   <!-- Styles -->
   <link rel="stylesheet" href="./assets/css/footer_navbar/footer_navbar.css">
   <link rel="stylesheet" href="./assets/css/cardstyle/card.css">
+  <link rel="stylesheet" href="./assets/css//navbar/navbar.css">
   <title>Colaboradores</title>
 </head>
 
@@ -23,18 +24,15 @@
 
     <nav class="navbar navbar-expand-lg BGC">
       <div class="container-fluid ">
-        <img class="navbar-brand" id="logo" src="/assets/img/itemsNavBar/logo.png" alt="logo"
-          style="margin-right: 10rem;">
-        <button class="btn btn-outline-lightt navbar-toggler" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <img src="/assets/img/itemsNavBar/menu_mobile.png" alt="menu-icon">
+        <img class="navbar-brand"id="logo" src="./assets/img/itemsNavBar/logo.png" alt="logo" style="margin-right: 10rem;">
+        <button class="btn btn-outline-lightt navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <img src="./assets/img/itemsNavBar/menu_mobile.png" alt="menu-icon">
         </button>
         <div class="collapse navbar-collapse justify-content-between" id="navbarTogglerDemo01">
-  
+          
           <ul class="navbar-nav col-8">
             <li class="nav-item col-3">
-              <a class="nav-link fuenteNav" aria-current="page" href="index.html">Inicio</a>
+              <a class="nav-link fuenteNav" aria-current="page" href="inicio.html">Inicio</a>
             </li>
             <li class="nav-item col-3">
               <a class="nav-link fuenteNav" aria-current="page" href="nosotros.html">Nosotros</a>
@@ -50,25 +48,23 @@
             </li>
           </ul>
           <div class="mb-auto">
-            <button class="btn btn-outline-lightt dropdown-toggle " type="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              <img src="/assets/img/itemsNavBar/lupa.png" alt="lupa">
-            </button>
-            <form class="dropdown-menu p-2 BGC" id="search">
-              <div class="form-floating mb-3">
-                <input type="search" class="form-control" id="floatingInput" placeholder="search">
-                <label for="floatingInput">Ingrese producto</label>
-              </div>
-              <button type="submit" class="btn btn-primary BGCBlue">Buscar</button>
-            </form>
-            <button class="btn btn-outline-lightt" type="button"><img src="/assets/img/itemsNavBar/carrito.png"
-                alt="carrito"></button>
-            <button class="btn btn-outline-lightt" id="mobileIcon" type="button"><img
-                src="/assets/img/itemsNavBar/cel.png" alt="mobile"></button>
+              <button class="btn btn-outline-lightt dropdown-toggle  " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="./assets/img/itemsNavBar/lupa.png" alt="lupa">
+              </button>
+              <form class="dropdown-menu" id="ocultar">
+                <div class="form-floating my-fixed-item ">
+                  <input type="search" class="form-control" id="floatingInput buscador" placeholder="search">
+                  <label for="floatingInput">Ingrese producto</label>
+                </div>
+               
+              </form>
+              <button class="btn btn-outline-lightt" type="button"><img src="./assets/img/itemsNavBar/carrito.png" alt="carrito"></button>
+              <button onclick="mobile()" class="btn btn-outline-lightt" id="mobileIcon" type="button"><img src="./assets/img/itemsNavBar/cel.png" alt="mobile"></button>
           </div>
         </div>
       </div>
     </nav>
+
     <!-- fin barra del navegacion -->
 
     <!-- Inicio de las Cartas -->
@@ -81,15 +77,17 @@
               <div class="card">
                   <div class="card__front" style="background-image: url(./assets/img/fotosCards/fondoCard.png);">
                       <div class="body__card_front">
-                          <h1>breve descripción</h1>
+                          <h1> <br> <strong>Desarrollador web Jr.</strong> <br><br> Graduado del bootcamp de generation México como full-stack developer en java, actualmente trabajando como manual tester. Soy egresado de la ingeniería en mecatrónica del CETI me gusta desarrollarme en varias áreas al igual que mi carrera interesado en el área de IT.</h1>
                       </div>
                   </div>
                   <div class="card__back">
                       <div class="body__card_back">
                           <h1>Alan Israel Sandoval Villa</h1>
-                          <p>Participación en el proyecto</p>
-                          <a href="https://github.com/alansv96"> <input type="button" value="GitHub"> </a>
-                          <a href="https://www.linkedin.com/in/alan-sandoval-villa-645975219/" blank> <input type="button" value="LinkedIn"> </a>
+                          <p>
+                            <a href="https://github.com/alansv96" blank> <img class="logoGit" src="./assets/img/fotosCards/logoGitHub.png" alt="logoGitHub"> </a>
+                            <a href="https://www.linkedin.com/in/alan-sandoval-villa-645975219/" blank> <img class="logoLinkedIn" src="./assets/img/fotosCards/logoLinkedIn.png" alt="logoLinkedIn"> </a>
+                          </p>
+                          
                       </div>
                   </div>
               </div>
@@ -100,15 +98,17 @@
               <div class="card">
                   <div class="card__front" style="background-image: url(./assets/img/fotosCards/fondoCard.png);">
                       <div class="body__card_front">
-                          <h1>breve descripcion </h1>
+                          <h1> <br> <strong>Desarrollador web Jr.</strong> <br><br>Egresado en proceso de titulación de la Licenciatura en Ciencias de la Informática en el Instituto Politécnico Nacional, tengo 2 años de experiencia como Diseñador UX y Diseñador Web. Tengo la misión de brindar mis habilidades y conocimientos en beneficio de instituciones de gran valor con la finalidad de marcar un impacto positivo.</h1>
                       </div>
                   </div>
                   <div class="card__back">
                       <div class="body__card_back">
                           <h1>Oscar Reyes Martinéz</h1>
-                          <p>participación en el proyecto</p>
-                          <a href="https://github.com/Demon46"> <input type="button" value="GitHub"> </a>
-                          <a href="https://www.linkedin.com/in/oscarreyesmtz/" blank> <input type="button" value="LinkedIn"> </a>
+                          <p>
+                            <a href="https://github.com/Demon46" blank> <img class="logoGit" src="./assets/img/fotosCards/logoGitHub.png" alt="logoGitHub"> </a>
+                            <a href="https://www.linkedin.com/in/oscarreyesmtz/" blank> <img class="logoLinkedIn" src="./assets/img/fotosCards/logoLinkedIn.png" alt="logoLinkedIn"> </a>
+                          </p>
+                          
                       </div>
                   </div>
               </div>
@@ -117,17 +117,19 @@
           <!-- Card Jorge -->
           <div class="card__father">
               <div class="card">
-                  <div class="card__front" style="background-image: url(./assets/img/fotosCards/fondoCard.png);">
+                  <div class="card__front" style="background-image: url(./assets/img/fotosCards/cardJorge.png);">
                       <div class="body__card_front">
-                          <h1>breve descripción</h1>
+                          <h1> <br> <strong>Desarrollador web Jr.</strong> <br><br> Actualmente graduado "Desarrollador Java FullStack" ofrecido por Generation México. Soy una persona que le gusta mejorarse día con día, afrontando retos para siempre lograr un resultado con el que me sienta satisfecho conmigo mismo, así como con mis colaboradores. </h1>
                       </div>
                   </div>
                   <div class="card__back">
                       <div class="body__card_back">
                           <h1>Jorge Esteban Chávez Araiza</h1>
-                          <p>participación en el proyecto</p>
-                          <a href="https://github.com/jorgechaiza"> <input type="button" value="GitHub"> </a>
-                          <a href="https://www.linkedin.com/in/jorge-chavez-araiza/" blank> <input type="button" value="LinkedIn"> </a>
+                          <p>
+                            <a href="https://github.com/jorgechaiza" blank> <img class="logoGit" src="./assets/img/fotosCards/logoGitHub.png" alt="logoGitHub"> </a>
+                            <a href="https://www.linkedin.com/in/jorge-chavez-araiza/" blank> <img class="logoLinkedIn" src="./assets/img/fotosCards/logoLinkedIn.png" alt="logoLinkedIn"> </a>
+                          </p>
+                          
                       </div>
                   </div>
               </div>
@@ -140,17 +142,20 @@
         <!-- Card Melissa -->
           <div class="card__father">
               <div class="card">
-                  <div class="card__front" style="background-image: url(./assets/img/fotosCards/fondoCard.png);">
+                  <div class="card__front" style="background-image: url(./assets/img/fotosCards/cardMeli.png);">
                       <div class="body__card_front">
-                          <h1>breve descripción</h1>
+                          <h1> <br> <strong>Desarrolladora web Jr.</strong> <br><br> Graduada del bootcamp Generation México como desarrolladora de Software Full-Stack, soy apacionada por los temas técnologicos como la programación y el cómputo. Puedo ayudarte a que las ideas tomen forma ya que soy una persona creativa, detallista y empática.
+                          </h1>
                       </div>
                   </div>
                   <div class="card__back">
                       <div class="body__card_back">
                           <h1>Melissa Rios Sánchez</h1>
-                          <p>participacion en el proyecto</p>
-                          <a href="https://github.com/melriosanch"> <input type="button" value="GitHub"> </a>
-                          <a href="https://www.linkedin.com/in/melissa-rios-snchz" blank> <input type="button" value="LinkedIn"> </a>
+                          <p>
+                            <a href="https://github.com/melriosanch" blank> <img class="logoGit" src="./assets/img/fotosCards/logoGitHub.png" alt="logoGitHub"> </a>
+                            <a href="https://www.linkedin.com/in/melissa-rios-snchz" blank> <img class="logoLinkedIn" src="./assets/img/fotosCards/logoLinkedIn.png" alt="logoLinkedIn"> </a> 
+                          </p>
+                          
                       </div>
                   </div>
               </div>
@@ -159,18 +164,21 @@
           <!-- Card Othoniel -->
           <div class="card__father">
               <div class="card">
-                  <div class="card__front" style="background-image: url(./assets/img/fotosCards/fondo.png);">
+                  <div class="card__front" style="background-image: url(./assets/img/fotosCards/cardOtho.png);">
                       <div class="body__card_front">
-                          <h1>Breve descripción</h1>
+                          <h1> <br> <strong>Desarrollador web Jr.</strong> <br><br>Graduado del bootcamp de Generation como desarrollador fullstack. Actualmente estudiando la Ingeniería en Sistemas Computacionales
+                            Soy una persona enfocada hacia la tecnología con mucha pasión por aprender y desarrollar mis habilidades. Me gusta superarme y aprender cosas nuevas.</h1>
                       </div>
                   </div>
                   <div class="card__back">
                       <div class="body__card_back">
-                          <h1>Othoniel Cabrera Rocha</h1>
-                          <p>Participación en el proyecto</p>
-                          <a href="https://github.com/cabrerar2532"> <input type="button" value="GitHub"> </a>
-                          <a href="https://www.linkedin.com/in/othoniel-cabrera-1b7035253/" blank> <input type="button" value="LinkedIn"> </a>
-                      </div>
+                          <h1>Diana Cabrera Rocha</h1>
+                          <p>
+                            <a href="https://github.com/cabrerar2532" blank> <img class="logoGit" src="./assets/img/fotosCards/logoGitHub.png" alt="logoGitHub"> </a>
+                            <a href="https://www.linkedin.com/in/othoniel-cabrera-1b7035253/" blank> <img class="logoLinkedIn" src="./assets/img/fotosCards/logoLinkedIn.png" alt="logoLinkedIn"> </a>
+                        </div>
+                      </p>
+                          
                   </div>
               </div>
           </div>
@@ -178,17 +186,20 @@
           <!-- Card Eduardo -->
           <div class="card__father">
               <div class="card">
-                  <div class="card__front" style="background-image: url(./assets/img/fotosCards/fondo.png);">
+                  <div class="card__front" style="background-image: url(./assets/img/fotosCards/cardEdu.png);">
                       <div class="body__card_front">
-                          <h1>Breve descripción</h1>
+                          <h1> <br> <strong>Desarrollador web Jr.</strong> <br><br>Graduado del bootcamp Generation México como desarrollador de Software Full-Stack y estudiante en la universidad UTEL como ingeniero en sistemas computacionales. Persona persistente, comprometido y responsable. Sé trabajar en equipo y estoy en constante crecimiento de aprendizaje.</h1>
                       </div>
                   </div>
                   <div class="card__back">
                       <div class="body__card_back">
                           <h1>Eduardo Briones Gutiérrez</h1>
-                          <p>Particiación en el proyecto</p>
-                          <a href="https://github.com/EduardoBriGu"> <input type="button" value="GitHub"> </a>
-                          <a href="https://www.linkedin.com/in/eduardobrionesgtz/" blank> <input type="button" value="LinkedIn"> </a>
+                          <p>
+                            <a href="https://github.com/EduardoBriGu" blank> <img class="logoGit" src="./assets/img/fotosCards/logoGitHub.png" alt="logoGitHub"> </a>
+                            <a href="https://www.linkedin.com/in/eduardobrionesgtz/" blank> <img class="logoLinkedIn" src="./assets/img/fotosCards/logoLinkedIn.png" alt="logoLinkedIn"> </a>
+                              
+                          </p>
+                          
                       </div>
                   </div>
               </div>
@@ -266,6 +277,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
   crossorigin="anonymous"></script>
+  
 
 <!-- Fontawesome -->
 <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>

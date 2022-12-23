@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+#logo{
+    height: 3rem;
+}
+
+.BGCBlue{
+    background-color: #6798C0;
+    
+}
+
+.BGC{
+    background-color: #FFFDF7;
+}
+
+#logo{
+    height: 3rem;
+
+}
+.btn-outline-lightt{
+    background-color: #FFFDF7;
+}
+.sinMargin{
+    margin: 0;
+ 
+}
+.fuenteNav{ 
+
+    color: #6798C0;
+    font-size: 20px;
+    font-family: 'League Spartan', sans-serif;
+}
+.filtro{
+    display: none;
+}
+.my-fixed-item {
+    position: fixed;
+    min-height: 120px;
+    width: 400px;
+    word-wrap: break-word;
+    right: 10px;
+   
+}
+#ocultar{
+    background-color: transparent;
+    border: none;
+}

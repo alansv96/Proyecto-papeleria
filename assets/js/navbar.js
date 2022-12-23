@@ -1,14 +1,23 @@
-const searchInputDropdown = document.getElementById('search');
+document.addEventListener("keyup", e=>{
 
-searchInputDropdown.addEventListener("submit",(evento)=>{
+    if (e.target.matches("#buscador")){
+  
+        if (e.key ==="Escape")e.target.value = ""
+  
+        document.querySelectorAll(".articulo").forEach(producto =>{
+  
+            producto.textContent.toLowerCase().includes(e.target.value.toLowerCase())
+              ?producto.classList.remove("filtro")
+              :producto.classList.add("filtro")
+        })
+  
+    }
+  
+  
+  })
 
-    evento.preventDefault()
+function mobile(){
     
+    window.resizeTo(window.screen.availWidth / 2,window.screen.availHeight / 2)
 
-    const valor=document.getElementById("floatingInput").value;
-    console.log(valor);
-   
-    //console.log(evento.target);
-    searchInputDropdown.reset()
-
-})
+}
